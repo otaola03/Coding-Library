@@ -23,5 +23,5 @@
 
 ## 🖊 Vim
 
-* [Todo y mas](vim/todo-y-mas.md)
 * [Vim Basics](vim/vim-basics.md)
+* [Todo y mas](vim/todo-y-mas.md)

@@ -22,7 +22,7 @@ Descargas  Documentos  Escritorio  Imágenes  Música  Plantillas  Público  Ví
 ls -a
 ```
 
-### Como listar directorios con informacion detallada
+### Como listar archivos y directorios con informacion detallada
 
 Si lo que deseamos es **ver una lista mas detallada** aun, es decir con información relevante a cada uno de los archivos usamos…
 
