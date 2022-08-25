@@ -48,9 +48,19 @@ Además de usar los cursores para movernos por el archivo, podemos movernos de u
 * _**gg**_ –> Ponerse al inicio del fichero.
 * _**Mayús+g**_ –> Ir a la última línea del fichero.
 * _**Num+G**_ –> Ir a una línea determinada. Por ejemplo 14G llevaría el cursor a la línea 14.
+* **Num+%** -> te lleva al porcentaje del docuemnto que deseas
+
+Para moverse en la misma lieas:
+
 * _**$**_ –> Ir al final de la línea.
 * _**0**_ –> Ir al principio de la línea.
-* **Num+%** -> te lleva al porcentaje del docuemnto que deseas
+* **w** --> Avanza un apalabra
+  * **Num+w** --> Avanza Num palabras
+  * **Mayus+w** --> te coloca al principio de la palabra del siguienrte espacio
+* **b** --> Retrocede palabras
+* **e** --> te coloca al final de la palabra
+  * **Num+e** --> te coloca al final de la Num palabra a partir de la posicion del cursor
+* **g+e** --> te coloca al fiual de la palabra anterior
 
 Otros comandos basicos para desplazarse por el documento son los sigientes, aunque en algunos casos tambien se pueden utilizar las flechas del teclado.
 
@@ -61,11 +71,24 @@ Otros comandos basicos para desplazarse por el documento son los sigientes, aunq
 
 Si tecleas un numero antes de presionar una de estas teclas el cursor se desplazar n posiciones hacia la direcion que deseas. Por ejemplo si pongo 4j el cursor se movera 4 lineas hacia abajo, a partir de su posicion actual.
 
-### Copiar, Cortar y Pegar
+### Copiar, Cortar y Pegart
 
 * _**dd**_ –> El comando permite cortar la línea actual, donde está el cursor, para posteriormente poderla pegar en otro lado. De no ser asi, tambien se puede utilizar para borrar lineas
-* _**d+num**_ –> Este comando permite cortar un número de líneas. Por ejemplo, d3 cortara tres líneas. Si la lineas so se colocan de nuevo puede utilizarse tamben para borrar
+* _**d+num+direccion**_–> Este comando permite cortar un número de líneas o letras en la direccion que quieras. Por ejemplo, d3+(Flecha hacia abajo) cortara la lina actual y las tres de abajo. Si la lineas so se colocan de nuevo puede utilizarse tamben para borrar
+* **Mayus+d** -> Borra la linea a partir de donde esta el cursor
 * **yy** -> El comando permite copiar la linea actual, donde esta el cursor.
-  * **Num+Mayus+y** -> Esto te copiara la linea acual y Num-1 lineas hacia abajo a partir e la posicion del cursor.
+  * **Num+Mayus+y** -> Esto te copiara la linea acual y num-1 lineas mas hacia abajo a partir e la posicion del cursor.
 * **p** -> Pega la linea copiada debajo de la posicion del cursor
 * **Mayus+p** -> Pega la linea copiada encima de la posicion del cursor
+
+### Eliminar y Añadir texto
+
+* **Mayus+c** --> Elimina la linea a partir de la poscion del curosr y se pone en modo insertar
+* **Mayus+a** --> Se coloca al final de la linea y se pone en modo insertar
+* **d + w** --> elimina solo la palabra en la que esta el cursor, pero a partir de la poscion del cursor
+  * **d+Num+w** --> elimina Num palabras
+
+### Tabs  repeticiones
+
+
+
