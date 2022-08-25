@@ -46,7 +46,7 @@ Este comando se usa para crear cualquier tipo nuevo de archivo en sistemas Linux
 touch file_name
 ```
 
-Para **cambiar la hora** p fecha de un fichero hay que hacer lo sigueinte
+Tambien se puede utilizar para **cambiar la hora** o **fecha** de un fichero hay que hacer lo sigueinte
 
 | Comando                      | Descripcion                                |
 | ---------------------------- | ------------------------------------------ |

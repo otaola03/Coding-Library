@@ -9,7 +9,7 @@
   * [Ls](linux/other-commands/ls.md)
   * [Mv](linux/other-commands/mv.md)
   * [Chmod](linux/other-commands/chmod.md)
-  * [Enlaces simbolicos](linux/other-commands/enlaces-simbolicos.md)
+  * [Ln](linux/other-commands/ln.md)
   * [Cat](linux/other-commands/cat.md)
   * [Wc](linux/other-commands/wc.md)
   * [Grep](linux/other-commands/grep.md)
@@ -25,3 +25,7 @@
 
 * [Vim Basics](vim/vim-basics.md)
 * [Todo y mas](vim/todo-y-mas.md)
+
+## 🏛 C
+
+* [Page 1](c/page-1.md)
