@@ -69,8 +69,11 @@ Esto crearía una carpeta simbólica llamada `mis cosas` en el escritorio que co
 
 Las opciones de enlace simbólico se denominan switches de línea de comando. Aquí están los más comunes y sus descripciones:
 
-| -backup\[=CONTROL]   | copia de seguridad de cada archivo de destino existente      |
+
+
+| **Flags**            | **Descripción**                                              |
 | -------------------- | ------------------------------------------------------------ |
+| -backup\[=CONTROL]   | copia de seguridad de cada archivo de destino existente      |
 | -d, -F, –directory   | el superusuario puede intentar un enlace duro                |
 | -f, –force           | se elimina el archivo de destino existente                   |
 | -I, –interactive     | preguntar antes de eliminar archivos de destino              |
