@@ -51,6 +51,7 @@ drwxr-xr-x 2 jperez jperez  4096 ago 22 21:18 Folder
 | --------- | ---------------------------------------------------------------- |
 | -r        | Ordena en orden inverso el listado de archivos                   |
 | -t        | Ordena el listado de archivos conforme el mas reciente al inicio |
+| -R        | Lsiat alas carpetas y ficheros recursivamente                    |
 | -l@       | Para ver permisos especiales                                     |
 
 ### Bibliografia
