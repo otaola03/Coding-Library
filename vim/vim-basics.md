@@ -88,7 +88,10 @@ Si tecleas un numero antes de presionar una de estas teclas el cursor se desplaz
 * **d + w** --> elimina solo la palabra en la que esta el cursor, pero a partir de la poscion del cursor
   * **d+Num+w** --> elimina Num palabras
 
-### Tabs  repeticiones
+### Tabs y repeticiones
 
+### Ventanas
 
+* **:split+Name** --> Abre en division horizontal el fichero que eligas
+* **:vsplit+Name** --> Abre en division vertical el fichero que eligas
 
