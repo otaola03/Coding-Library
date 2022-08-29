@@ -16,6 +16,7 @@
   * [Sed](linux/other-commands/sed.md)
   * [Find](linux/other-commands/find.md)
   * [Diff](linux/other-commands/diff.md)
+  * [ar](linux/other-commands/ar.md)
 
 ## 📦 Git
 
