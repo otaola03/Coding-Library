@@ -29,4 +29,4 @@
 
 ## 🏛 C
 
-* [Page 1](c/page-1.md)
+* [Estructuras de datos](c/estructuras-de-datos.md)
