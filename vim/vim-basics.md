@@ -90,6 +90,9 @@ Si tecleas un numero antes de presionar una de estas teclas el cursor se desplaz
 
 ### Tabs y repeticiones
 
+* **Num+>+Direccion** --> Para tabular las lineas que quieras
+* **Num+<+Direccion** --> Para destabular las lineas que quieras
+
 ### Ventanas
 
 * **:split+Name** --> Abre en division horizontal el fichero que eligas
