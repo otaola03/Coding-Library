@@ -30,3 +30,7 @@
 ## 🏛 C
 
 * [Estructuras de datos](c/estructuras-de-datos.md)
+
+## 🖥 Sistemas
+
+* [Particiones](sistemas/particiones.md)
