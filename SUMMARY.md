@@ -30,6 +30,7 @@
 ## 🏛 C
 
 * [Estructuras de datos](c/estructuras-de-datos.md)
+* [Valgrind](c/valgrind.md)
 
 ## 🖥 Sistemas
 
