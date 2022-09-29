@@ -85,6 +85,7 @@ Si tecleas un numero antes de presionar una de estas teclas el cursor se desplaz
 
 * **Mayus+c** --> Elimina la linea a partir de la poscion del curosr y se pone en modo insertar
 * **Mayus+a** --> Se coloca al final de la linea y se pone en modo insertar
+* **o** --> Se coloca en una nueva linea creada debajo del cursor y se pone en modo insertar&#x20;
 * **d + w** --> elimina solo la palabra en la que esta el cursor, pero a partir de la poscion del cursor
   * **d+Num+w** --> elimina Num palabras
 
