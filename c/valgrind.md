@@ -29,13 +29,13 @@ Compile su programa con -g para incluir información de depuración para que los
 Normalmente ejecutas los programas asi:
 
 ```
-  ./a.out arg1 arg2
+./a.out arg1 arg2
 ```
 
 Utiliza esta linea de comando
 
 ```
-  valgrind --leak-check=yes ./a.out arg1 arg2
+valgrind --leak-check=yes ./a.out arg1 arg2
 ```
 
 Memcheck es la herramienta predeterminada. La opción --leak-check activa el detector detallado de fugas de memoria.
