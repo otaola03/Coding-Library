@@ -29,13 +29,13 @@ Compile su programa con -g para incluir información de depuración para que los
 Normalmente ejecutas los programas asi:
 
 ```
-  ./a.out arg1 arg2
+./a.out arg1 arg2
 ```
 
 Utiliza esta linea de comando
 
 ```
-  valgrind --leak-check=yes ./a.out arg1 arg2
+valgrind --leak-check=yes ./a.out arg1 arg2
 ```
 
 Memcheck es la herramienta predeterminada. La opción --leak-check activa el detector detallado de fugas de memoria.
@@ -136,3 +136,4 @@ A continuación describimos los flags utilizados:
 * [Debugging con Valgrind (Parte 1)](https://youtu.be/pfjjSL9sp3w)
 * [Debugging con Valgrind (Parte 2)](https://youtu.be/Vqr75HSe3kk)
 * [Cómo utilizar Valgrind para perfilar el uso de memoria](https://access.redhat.com/documentation/es-es/red\_hat\_enterprise\_linux/6/html/performance\_tuning\_guide/s-memory-valgrind)
+* [Invalid read --> error](https://derickrethans.nl/valgrind-null.html)
