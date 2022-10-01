@@ -35,6 +35,7 @@ Todos estos comandos se aplican cuando vim esta en el modo consola.
 * _**:q!**_ –> Salir de Vim, descartando posibles cambios no guardados que se hayan realizado en el fichero.
 * _**:x** _ –> Hace el guardado del archivo y después sale de Vim.
   * **:wq** o pulsar dos veces la tecla z (**zz**) tambien realiza la misma accion.
+* **:a** --> para aplicar el comando a todas las pestañas
 
 ### Deshacer y rehacer
 
