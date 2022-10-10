@@ -29,7 +29,10 @@
 
 ## 🏛 C
 
-* [Estructuras de datos](c/estructuras-de-datos.md)
+* [Estructuras de datos](c/estructuras-de-datos/README.md)
+  * [Listas Enlazadas](c/estructuras-de-datos/listas-enlazadas.md)
+  * [Colas](c/estructuras-de-datos/colas.md)
+  * [Pilas](c/estructuras-de-datos/pilas.md)
 * [Valgrind](c/valgrind.md)
 
 ## 🖥 Sistemas
