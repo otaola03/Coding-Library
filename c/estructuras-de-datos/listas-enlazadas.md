@@ -18,7 +18,7 @@ Las lista constan de dos partas, la cabeza, que es el primer elmento de la lista
 
 El ultimo nodo de la lista apunta a una lista vacia, un valor NULL&#x20;
 
-### Estrcuturas de la listas
+### Estructuras de la listas
 
 La listas son estructuras que estan compuestas, por norma general, de una estructura con la **informacion** que deseamos guardar y otra variable que es un **puntero a otra estructura** del mismo tipo que nuestra lista (puntero al siguiente nodo). Para que quede mas aqui tines el siguiente ejemplo:
 
@@ -145,7 +145,7 @@ void insertar_despues(int n, Lista *lista, Libro *libro)
 
 ### Obtener Datos
 
-Para obtener los datos de un nodo n es necesario recorrer la lista hasta esta posicion deseada o el final de la lista. Una vez estemos en el nodo adecuado habra que devovler la direcccion aa la informacion solicitada. En el caso de que la lista este vacia habra que devolver un valor nulo.
+Para **obtener los datos de un nodo n** es necesario recorrer la lista hasta esta posicion deseada o el final de la lista. Una vez estemos en el nodo adecuado habra que devovler la direcccion aa la informacion solicitada. En el caso de que la lista este vacia habra que devolver un valor nulo.
 
 ```
 Libro *obtener_datos(int n, Lista *lista)
@@ -168,7 +168,70 @@ Libro *obtener_datos(int n, Lista *lista)
 
 ### Eliminar nodos
 
-s
+Para **eliminar el primer nodo de una lista** tan solo hay que acceder a este a traves de la estructura lista, que es la que almacena el primer elemento y eliminarlo mediante `eliminar_nodo`. Una vez eliminado habra que actualizar la cabeza de la lista para que apunte al siguiente elemento. Para no perder el siguiente nodo al primero, este habra que guardarlo en un auxiliar antes de eliminar la cabeza.
+
+```
+void eliminar_principio(Lista *lista)
+{
+    Nodo *eliminado = lista->cabeza;
+    lista->cabeza = lista->cabeza->sigueinte;
+    eliminar_nodo(eliminado);
+}
+```
+
+Para **eliminar el ultimo nodo de una lista** hay que recorrer la lista hasta llegar al anteultimo nodo de esta, ya que lo que tenemos que eliminar es el puntero del ultimo nodo. En caso de que recorrieramos la lista hasta llegar al final, no podriamos eliminar este nodo, ya que `puntero-> siguiente` seria NULL. Por ello recorreremos la lsita mientras puntero->siguiente->siguiente.
+
+Una vez estemos sobre el anteúltimo nodo, su `puntero->siguiente` lo asignaremos a NULL, ya que este ahora sera el ultimo nodo. Esos si, antes de esto, habra que guardar el ultimo nodo `puntero->siguiente->siguiente` en una variable auxiliar para su posterior eliminacion mediante `destruir_nodo`.&#x20;
+
+```
+void eliminar_ultimo(Lista *lista)
+{
+        if (lista->cabeza)
+        {
+        if (lista->cabeza
+        Nodo *puntero = lista->cabeza;
+        while (puntero->siguiente->siguiente)
+                puntero = puntero->siguiente;
+                Nodo *eliminado = puntero->siguiente;
+            puntero->siguiente = NULL;
+            destruir_nodo(eliminado)
+        }
+}
+```
+
+Para **eliminar un elemento n**, al igual que para eliminar el ultimo elemento, tenemnos que recorrer las lista hasta llegar al nodo (n - 1). Para asegurar que estamos en esa posicion y que no se ha acabado la lista antes de tiempo, hay que usar un contador. Una vez situado el el nodo indicado guardaremos el nodo n en una auxiliar para su poesteriro eliminacion y apuntaremos el nodo (n - 1) al nodo (n + 1).
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2022-10-11 at 2.52.45 PM.png" alt=""><figcaption></figcaption></figure>
+
+En caso de que nos pida eliminar el primer elemento habra que hacer lo mismo que hacemos en la funcion `eliminar_principio`, para eliminar la cabeza de la lista.
+
+```
+void eliminar_elemento_n(int n, Lista *lista)
+{
+    if (lista->cabeza)
+    {
+        if (n == 0)
+        {
+            Nodo *eliminado = lista->cabeza;
+            lista->cabeza = lista->cabeza->sigueinte;
+            eliminar_nodo(eliminado);
+        }
+        else
+        {
+            Nodo *puntero = lista->cabeza;
+            int posicion = 0;
+            while (posicion++ < (n - 1) && puntero->siguiente->siguiente)
+                puntero = puntero->siguiente;
+            if (posicion == n -1)
+            {
+                Nodo *eliminado = puntero->siguiente;
+                puntero->siguiente = eliminado->siguiente;
+                destruir_nodo(eliminado);
+            }
+        }
+    }
+}
+```
 
 ### Bibliografia
 
