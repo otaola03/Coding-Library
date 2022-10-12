@@ -188,13 +188,21 @@ void eliminar_ultimo(Lista *lista)
 {
         if (lista->cabeza)
         {
-        if (lista->cabeza
-        Nodo *puntero = lista->cabeza;
-        while (puntero->siguiente->siguiente)
-                puntero = puntero->siguiente;
-                Nodo *eliminado = puntero->siguiente;
-            puntero->siguiente = NULL;
-            destruir_nodo(eliminado)
+                if (lista->cabeza->siguiente)
+                {
+                        Nodo *puntero = lista->cabeza;
+                        while (puntero->siguiente->siguiente)
+                                puntero = puntero->siguiente;
+                        Nodo *eliminado = puntero->siguiente;
+                        puntero->siguiente = NULL;
+                        destruir_nodo(eliminado)
+                }
+                else
+                {
+                        Nodo *eliminado = lista->cabeza;
+                        lista->cabeza = NULL;
+                        destruir_nodo(eliminado);
+                }
         }
 }
 ```
