@@ -34,6 +34,7 @@
   * [Colas](c/estructuras-de-datos/colas.md)
   * [Pilas](c/estructuras-de-datos/pilas.md)
 * [Valgrind](c/valgrind.md)
+* [Operadores de bits](c/operadores-de-bits.md)
 
 ## 🖥 Sistemas
 
