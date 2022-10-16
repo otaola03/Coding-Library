@@ -35,7 +35,7 @@ Normalmente ejecutas los programas asi:
 Utiliza esta linea de comando
 
 ```
-valgrind --leak-check=yes ./a.out arg1 arg2
+valgrind --leak-check=yes ./a.out
 ```
 
 Memcheck es la herramienta predeterminada. La opción --leak-check activa el detector detallado de fugas de memoria.
