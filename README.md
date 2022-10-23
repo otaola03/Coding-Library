@@ -5,8 +5,4 @@ coverY: 0
 
 # 👨💻 Coding Library
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-hola
+My notes on programming
