@@ -8,6 +8,8 @@ Un **symlink** (también llamado enlace simbólico) es un tipo de archivo en Lin
 
 Algunas personas llaman a los enlaces simbólicos "soft links" - un tipo de enlace en los sistemas Linux/UNIX - opuestos a los "hard links".
 
+Anste que nada lo mejor
+
 ### ¿Qué son los enlaces duros?
 
 1. Los enlaces duros tienen el mismo número de inodos.
