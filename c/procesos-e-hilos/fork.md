@@ -7,7 +7,7 @@ description: Crear procesos
 La llamada al sistema de fork se usa para crear un nuevo proceso, que se llama _**child process**_ (proceso hijo), que se ejecuta simultáneamente con el proceso que realiza la llamada a la `fork()` (proceso principal). Después de que se crea un nuevo proceso secundario, ambos procesos ejecutarán la siguiente instrucción después de la llamada al sistema fork(). Un proceso hijo usa la misma computadora (contador de programa), los mismos registros de CPU, los mismos archivos abiertos que usa el proceso padre, basicamente es un **duplicado del proceso padre**.
 
 ```
-pid_t fork(void)
+pid_t fork(void);
 ```
 
 ### Retorno del fork
