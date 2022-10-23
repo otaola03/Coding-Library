@@ -10,6 +10,8 @@ cLa llamada al sistema de fork se usa para crear un nuevo proceso, que se llama 
 pid_t fork(void);
 ```
 
+{% embed url="https://www.youtube.com/watch?v=cex9XrZCU14" %}
+
 ### Retorno del fork
 
 El sistema operativo utiliza una identificación única para cada proceso para realizar un seguimiento de todos los procesos. Y para eso, fork() no toma ningún parámetro y devuelve un valor int de la siguiente manera:
@@ -21,6 +23,10 @@ El sistema operativo utiliza una identificación única para cada proceso para r
 | Valor negativo | Si la creación de un proceso hijo no tuvo éxito.  |
 
 > Nota: fork() es una función basada en subprocesos, para obtener el resultado correcto, ejecute el programa en un sistema local.
+
+### Clasificacion de procesos
+
+PAdre, hijo, heurfano, zombie
 
 ### Crear 3 procesos
 
@@ -174,3 +180,9 @@ Child process is exiting
 parent process is exiting
 ```
 
+### Bibliografia
+
+* [https://www.geeksforgeeks.org/fork-system-call/](https://www.geeksforgeeks.org/fork-system-call/)
+* [https://www.section.io/engineering-education/fork-in-c-programming-language/](https://www.section.io/engineering-education/fork-in-c-programming-language/)
+* [https://www.youtube.com/watch?v=VwjP-KFuZCM](https://www.youtube.com/watch?v=VwjP-KFuZCM)
+* [https://www.youtube.com/watch?v=Dt9z\_ohQWHI\&t=29s](https://www.youtube.com/watch?v=Dt9z\_ohQWHI\&t=29s)
