@@ -4,7 +4,7 @@ description: Crear procesos
 
 # Fork
 
-La llamada al sistema de fork se usa para crear un nuevo proceso, que se llama _**child process**_ (proceso hijo), que se ejecuta simultáneamente con el proceso que realiza la llamada a la `fork()` (proceso principal). Después de que se crea un nuevo proceso secundario, ambos procesos ejecutarán la siguiente instrucción después de la llamada al sistema fork(). Un proceso hijo usa la misma computadora (contador de programa), los mismos registros de CPU, los mismos archivos abiertos que usa el proceso padre, basicamente es un **duplicado del proceso padre**.
+cLa llamada al sistema de fork se usa para crear un nuevo proceso, que se llama _**child process**_ (proceso hijo), que se ejecuta simultáneamente con el proceso que realiza la llamada a la `fork()` (proceso principal). Después de que se crea un nuevo proceso secundario, ambos procesos ejecutarán la siguiente instrucción después de la llamada al sistema fork(). Un proceso hijo usa la misma computadora (contador de programa), los mismos registros de CPU, los mismos archivos abiertos que usa el proceso padre, basicamente es un **duplicado del proceso padre**.
 
 ```
 pid_t fork(void);
@@ -24,29 +24,13 @@ El sistema operativo utiliza una identificación única para cada proceso para r
 
 > Nota: fork() es una función basada en subprocesos, para obtener el resultado correcto, ejecute el programa en un sistema local.
 
-Gracias esto podemos especificar a cada proceso una serie de funciones distintas. Para ello utilizaremos un if en el que si es 0 significara que es el hijo, si es mayor que cero sera el padre y sino ha habido un error.
-
-```c
-int main()
-{
-    int id = fork();
-    if (id == 0)
-        printf("I'm the child\n");
-    else if (id > 0)
-        printf("I'm the parent\n");
-    else
-        printf("Eror\n");
-    return (0);
-}
-```
-
 ### Clasificacion de procesos
 
-Padre, hijo, heurfano, zombie
+PAdre, hijo, heurfano, zombie
 
 ### Crear 3 procesos
 
-Para poder crear un numero n de proecesos impares se utiliza la condicion if, expecificando que si el numero de proceso no es igual a cero, es decir si es el padre que hago un nuevo fork.
+Para poder crear un numero n de proecesos impares se utiliza la condicion if, expecificando que si el numero de proceso no es igual a cer, es decir si es el padre que hago un nuevo fork.
 
 ```c
 #include <stdio.h> 
