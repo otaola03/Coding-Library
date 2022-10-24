@@ -39,6 +39,7 @@
 * [Operadores de bits](c/operadores-de-bits.md)
 * [Procesos e Hilos](c/procesos-e-hilos/README.md)
   * [Fork](c/procesos-e-hilos/fork.md)
+  * [Wait](c/procesos-e-hilos/wait.md)
 
 ## 🖥 Sistemas
 
