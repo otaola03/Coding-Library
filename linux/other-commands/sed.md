@@ -58,3 +58,12 @@ Con una orden, se le indica al comando qué debe hacer con el archivo fuente, te
 |         |                                                                   |
 |         |                                                                   |
 |         |                                                                   |
+
+
+
+### Bibliografia
+
+* [https://www.hostinger.es/tutoriales/el-comando-sed-de-linux-usos-y-ejemplos/](https://www.hostinger.es/tutoriales/el-comando-sed-de-linux-usos-y-ejemplos/)
+* [https://www.ochobitshacenunbyte.com/2019/05/28/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/](https://www.ochobitshacenunbyte.com/2019/05/28/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/)
+* [https://geekland.eu/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/](https://geekland.eu/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/)
+* [https://www.ionos.es/digitalguide/servidores/configuracion/comando-sed-de-linux/](https://www.ionos.es/digitalguide/servidores/configuracion/comando-sed-de-linux/)
