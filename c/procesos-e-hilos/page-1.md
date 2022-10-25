@@ -6,6 +6,10 @@ description: Monitorear estados de proceso
 
 La llamada del sistema `wait` tiene múltiples limitaciones y, para cubrir funciones más avanzadas, es necesario utilizar la función `waitpid`. Es decir, si un proceso crea varios hijos y el padre necesita supervisar a un hijo específico, solo `waitpid` puede hacer esto.
 
+Waitpid devuelve el ID del proceso del hijo que terminó, o cero si se utilizó WNOHANG y no hay hijo disponible, o -1 en caso de error (en este caso, errno se pone a un valor apropiado).
+
+{% embed url="https://www.youtube.com/watch?v=kCGaRdArSnA" %}
+
 ### Syntaxis
 
 ```c
@@ -19,15 +23,15 @@ El `waitpid` toma tres argumentos, el primero de los cuales es el número de ide
 * **0** --> Espere cualquier proceso secundario cuyo ID de grupo de procesos sea igual al del proceso que llama
 * **>0** --> implica que el valor debe ser el ID de proceso real que se devolvió desde la función `fork`, que a su vez se usa para monitorear solo un proceso hijo específico
 
-&#x20;El segundo argumento es de tipo puntero `int` y debemos declarar una variable entera para pasar su dirección a la función. `waitpid`, por otro lado, almacenará la información del estado del niño en la variable `int` dada, que luego se puede decodificar usando las macros predefinidas.
+&#x20;El segundo argumento es de tipo puntero `int` y debemos declarar una variable entera para pasar su dirección a la función. `waitpid`, por otro lado, almacenará la información del estado del niño en la variable `int` dada, que luego se puede decodificar usando las macros predefinidas. este es el mismo argumentos que se le pasa a wait.
 
 El último argumento es de tipo `int`, y se usa para especificar ciertos eventos de proceso hijo a monitorear además de los predeterminados.
 
 ### Utilice macros para mostrar el estado de espera del proceso secundario en C
 
-El ID del proceso del hijo que terminó, o cero si se utilizó WNOHANG y no hay hijo disponible, o -1 en caso de error (en este caso, errno se pone a un valor apropiado).
+Para oder monitorizar los procesos se utilizan las siguientes macros, pero en caso de que no quieras hacerlo se puede pasar el parametro 0.
 
-* **WNOHANG** --> significa que vuelve inmediatamente si ningún hijo ha terminado.
+* **WNOHANG** --> significa que vuelve inmediatamente si ningún hijo ha terminado. Solo chequea, no espera a que termine el proceso.
 * **WUNTRACED** --> que significa que también vuelve si hay hijos parados (pero no rastreados), y de cuyo estado no ha recibido notificación. El estado para los hijos rastreados que están parados también se proporciona sin esta opción.
 * **WCONTINUED** --> También devolver si un hijo detenido ha sido retomado por entrega de `SIGCONT`.
 
