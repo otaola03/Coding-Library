@@ -40,7 +40,7 @@
 * [Procesos e Hilos](c/procesos-e-hilos/README.md)
   * [Fork](c/procesos-e-hilos/fork.md)
   * [Wait](c/procesos-e-hilos/wait.md)
-  * [Page 1](c/procesos-e-hilos/page-1.md)
+  * [Waitpid](c/procesos-e-hilos/waitpid.md)
 
 ## 🖥 Sistemas
 
