@@ -51,7 +51,7 @@ Además de usar los cursores para movernos por el archivo, podemos movernos de u
 * _**Num+G**_ –> Ir a una línea determinada. Por ejemplo 14G llevaría el cursor a la línea 14.
 * **Num+%** -> te lleva al porcentaje del docuemnto que deseas
 
-Para moverse en la misma lieas:
+#### Para moverse en la misma lieas:
 
 * _**$**_ –> Ir al final de la línea.
 * _**0**_ –> Ir al principio de la línea.
@@ -72,6 +72,8 @@ Otros comandos basicos para desplazarse por el documento son los sigientes, aunq
 
 Si tecleas un numero antes de presionar una de estas teclas el cursor se desplazar n posiciones hacia la direcion que deseas. Por ejemplo si pongo 4j el cursor se movera 4 lineas hacia abajo, a partir de su posicion actual.
 
+
+
 ### Copiar, Cortar y Pegart
 
 * _**dd**_ –> El comando permite cortar la línea actual, donde está el cursor, para posteriormente poderla pegar en otro lado. De no ser asi, tambien se puede utilizar para borrar lineas
@@ -86,11 +88,13 @@ Si tecleas un numero antes de presionar una de estas teclas el cursor se desplaz
 
 * **Mayus+c** --> Elimina la linea a partir de la poscion del curosr y se pone en modo insertar
 * **Mayus+a** --> Se coloca al final de la linea y se pone en modo insertar
+* **gI** --> Inserta texto al comienzo de una línea (columna 1)
 * **o** --> Se coloca en una nueva linea creada debajo del cursor y se pone en modo insertar&#x20;
 * **d + w** --> elimina solo la palabra en la que esta el cursor, pero a partir de la poscion del cursor
   * **d+Num+w** --> elimina Num palabras
+* **cc** --> elimina la linea sobre la que esta el cursor y se coloca en modo insertar
 
-### Tabs y repeticiones
+### Tabulacioness y repeticiones
 
 * **Num+>+Direccion** --> Para tabular las lineas que quieras
 * **Num+<+Direccion** --> Para destabular las lineas que quieras
@@ -99,4 +103,10 @@ Si tecleas un numero antes de presionar una de estas teclas el cursor se desplaz
 
 * **:split+Name** --> Abre en division horizontal el fichero que eligas
 * **:vsplit+Name** --> Abre en division vertical el fichero que eligas
+
+### Pestañas
+
+* :**tabnew archivo.txt** --> Abre archivo.txt en una nueva pestaña
+* **gT** --> Ir a la sigueinte pestaña
+* **ngT** --> Ir a la pestaña n
 

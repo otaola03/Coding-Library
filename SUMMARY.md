@@ -26,7 +26,9 @@
 
 ## 🖊 Vim
 
-* [Vim Basics](vim/vim-basics.md)
+* [Vim Basics](vim/vim-basics/README.md)
+  * [Gramatica de Vim](vim/vim-basics/gramatica-de-vim.md)
+  * [Moviendote por un archivo](vim/vim-basics/moviendote-por-un-archivo.md)
 * [Todo y mas](vim/todo-y-mas.md)
 
 ## 🏛 C
