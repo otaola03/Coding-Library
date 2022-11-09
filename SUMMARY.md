@@ -43,6 +43,10 @@
   * [Fork](c/procesos-e-hilos/fork.md)
   * [Wait](c/procesos-e-hilos/wait.md)
   * [Waitpid](c/procesos-e-hilos/page-1.md)
+* [MiniLibX](c/minilibx/README.md)
+  * [Ventanas (windows)](c/minilibx/ventanas-windows.md)
+  * [Imprimir Pixels](c/minilibx/imprimir-pixels.md)
+  * [Imagenes](c/minilibx/imagenes.md)
 
 ## 🖥 Sistemas
 
