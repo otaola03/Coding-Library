@@ -47,6 +47,7 @@
   * [Ventanas (windows)](c/minilibx/ventanas-windows.md)
   * [Imprimir Pixels](c/minilibx/imprimir-pixels.md)
   * [Imagenes](c/minilibx/imagenes.md)
+  * [Colores](c/minilibx/colores.md)
 
 ## 🖥 Sistemas
 
