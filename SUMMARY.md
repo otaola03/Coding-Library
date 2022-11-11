@@ -48,6 +48,7 @@
   * [Imprimir Pixels](c/minilibx/imprimir-pixels.md)
   * [Imagenes](c/minilibx/imagenes.md)
   * [Colores](c/minilibx/colores.md)
+  * [Eventos](c/minilibx/eventos.md)
 
 ## 🖥 Sistemas
 
