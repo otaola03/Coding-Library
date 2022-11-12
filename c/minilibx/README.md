@@ -63,3 +63,9 @@ int main(void)
 	free(mlx_ptr);
 }
 ```
+
+### Bibliografia
+
+* [Documentacion oficial](https://qst0.github.io/ft\_libgfx/man\_mlx.html)
+* [https://harm-smits.github.io/42docs/libs/minilibx](https://harm-smits.github.io/42docs/libs/minilibx)
+* [https://aurelienbrabant.fr/blog/getting-started-with-the-minilibx](https://aurelienbrabant.fr/blog/getting-started-with-the-minilibx)
