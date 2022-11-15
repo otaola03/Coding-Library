@@ -15,8 +15,6 @@
   * [Grep](linux/other-commands/grep.md)
   * [Sed](linux/other-commands/sed.md)
   * [Find](linux/other-commands/find.md)
-  * [Diff](linux/other-commands/diff.md)
-  * [ar](linux/other-commands/ar.md)
 * [Sistema de ficheros](linux/sistema-de-ficheros/README.md)
   * [Inodos](linux/sistema-de-ficheros/inodos.md)
 

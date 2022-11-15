@@ -76,7 +76,7 @@ sed 's/pinaple/olives/' toppings.txt
 Sin embargo, a la hora de filtar directorios puede haber alguna que otra complicacion, ya que estos son una seri de palabras sguidas  con slash entre medio. Por ello **en algunos casos es recomendable utilizar otros delimitadores**.
 
 ```bash
-sed 's./etc..' paths.txt    //Elimina la palabra path de todas las liuineas
+sed 's./etc..' paths.txt    //Elimina la palabra path de todas las lineas
 ```
 
 ### Buscar y remplazar cadenas de texto con sed
@@ -154,13 +154,109 @@ sed -i 's/[A-Z]/\L&/g' text.txt
 
 > **Nota**: `\U&` hace referencia a mayúsculas (Upper case). Por lo tanto el comando aplicado transforma a mayúsculas cualquier letra de la `a` a la `z` que haya en el documento. En cambio `\L&` hace referencia a las letras minusculas (Lower case).
 
+#### Insertar texto al inicio de todas las líneas de un fichero de texto
+
+Si al inicio de cada una de las líneas queremos añadir un guion y un espacio ejecutaremos el siguiente comando:
+
+```bash
+sed -i 's/^/- /' text.txt
+```
+
+> **Nota**: `^` es la expresión regular que indica al inicio de la línea.
+
+#### Insertar texto al final de una línea
+
+Podemos añadir texto al final de todas y cada una de las líneas. Para ello tan solo deberemos usar la expresión regular apropiada.
+
+```bash
+sed -i 's/$/. cierro la cita/' text.txt
+```
+
+> **Nota**: `$` es la expresión regular que indica al final de la línea.
+
+#### Añadir una línea con contenido o vacia justo al final de un fichero de texto
+
+Si queremos añadir un contenido cualquiera en la última línea lo haremos del siguiente modo:
+
+```bash
+sed '$a/texto nuevo introducido' text.txt
+```
+
+#### Añadir una línea con contenido o vacía en la penúltima línea de un fichero texto
+
+Si en vez de insertar el texto en la última línea lo queréis insertar en la penúltima lo tenéis que hacer del mismo modo que en el apartado anterior. La única diferencia es que tendréis que reemplazar el parámetro `$a` por `$i`. Un ejemplo de lo que acabo de comentar es el siguiente:
+
+```bash
+sed '$i texto nuevo introducido' text.txt
+```
+
+### Seleccionar y visualizar ocntenido mediante sed
+
+Sed permite capturar y visualizar el texto que nos interesa. De este modo, Sed nos permitirá realizar las siguientes operaciones.
+
+#### Mostrar las x primeras líneas de un fichero de texto
+
+Para imprimir las 2 primeras líneas del fichero `text.txt` tan solo deberemos usar el siguiente comando:
+
+```bash
+sed 2q text.txt
+```
+
+#### Visualizar una línea o un rango de líneas con Sed
+
+Sí unicamente queremos imprimir la tercera línea del fichero usaremos el siguiente comando:
+
+```bash
+sed -n '3p' text.txt
+```
+
+Si ahora queremos imprimir la línea 1 y la línea 3 ejecutaremos el siguiente comando:
+
+```bash
+sed -n '1p' text.txt && sed -n '3p' text.txt
+```
+
+En el caso que queramos imprimir el rango de líneas de la 2 a la 4 ejecutaremos el siguiente comando:
+
+```bash
+sed -n '2,4p' text.txt
+```
+
+#### Imprimir las líneas que cumplen con una determinada expresión regular mediante la (opción -n y p)
+
+Sed permite imprimir las líneas que cumplan con un determinado patrón y mostrarlas en pantalla o ubicarlas en un fichero de texto.
+
+Para ello deberemos usar la siguiente sintaxis:
+
+```bash
+sed -n '/texto_a_imprimir/p'
+```
+
+> **Nota**: La opción `-n` conjuntamente con la opción `p` hace que solo se muestren en pantalla las cadenas de texto que queremos visualizar.
+
+Si únicamente queremos mostrar las líneas de la salida del comando que contengan la palabra `usr` usaremos el siguiente comando:
+
+```bash
+sed -n '/usr/p' text.txt
+```
+
+Si quisiéramos mostrar todas las líneas **que no contienen** la cadena `usr` deberíamos usar el siguiente comando:
+
+```bash
+sed -n '/usr/!p' text.txt
+```
+
+### Borrar o eliminar texto con sed
+
+
+
 
 
 
 
 ### Bibliografia
 
+* [Mejor enalce sobre sed](https://geekland.eu/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/)
 * [https://www.hostinger.es/tutoriales/el-comando-sed-de-linux-usos-y-ejemplos/](https://www.hostinger.es/tutoriales/el-comando-sed-de-linux-usos-y-ejemplos/)
 * [https://www.ochobitshacenunbyte.com/2019/05/28/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/](https://www.ochobitshacenunbyte.com/2019/05/28/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/)
-* [https://geekland.eu/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/](https://geekland.eu/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/)
 * [https://www.ionos.es/digitalguide/servidores/configuracion/comando-sed-de-linux/](https://www.ionos.es/digitalguide/servidores/configuracion/comando-sed-de-linux/)
