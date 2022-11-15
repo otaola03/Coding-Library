@@ -38,9 +38,28 @@ Muy importante, y probablemente indispensable para tu trabajo, es el parámetro 
 
 Con una orden, se le indica al comando qué debe hacer con el archivo fuente, teniendo en cuenta los parámetros especificados
 
+| Ordenes | Descripcion                                                       |
+| ------- | ----------------------------------------------------------------- |
+|         | append: añade a las líneas seleccionadas una o más líneas más     |
+|         | change: reemplaza las líneas seleccionadas por un nuevo contenido |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
+|         |                                                                   |
 
 
-###
 
 ### Bibliografia
 
