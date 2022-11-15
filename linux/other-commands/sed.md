@@ -4,7 +4,7 @@ description: Buscar, buscar y reemplazar, insertar o eliminar
 
 # Sed
 
-El comando SED en UNIX es sinónimo de editor de flujo y puede realizar muchas funciones en archivos como buscar, encontrar y reemplazar, insertar o eliminar. Aunque el uso más común del comando SED en UNIX es para sustitución o para buscar y reemplazar. Al usar SED, puede editar archivos incluso sin abrirlo, que es una forma mucho más rápida de encontrar y reemplazar algo en el archivo, que primero abrir ese archivo en VI Editor y luego cambiarlo.
+delete: borra las líneas seleccionadasEl comando SED en UNIX es sinónimo de editor de flujo y puede realizar muchas funciones en archivos como buscar, encontrar y reemplazar, insertar o eliminar. Aunque el uso más común del comando SED en UNIX es para sustitución o para buscar y reemplazar. Al usar SED, puede editar archivos incluso sin abrirlo, que es una forma mucho más rápida de encontrar y reemplazar algo en el archivo, que primero abrir ese archivo en VI Editor y luego cambiarlo.
 
 ### Sintaxis
 
@@ -38,26 +38,36 @@ Muy importante, y probablemente indispensable para tu trabajo, es el parámetro 
 
 Con una orden, se le indica al comando qué debe hacer con el archivo fuente, teniendo en cuenta los parámetros especificados
 
-| Ordenes | Descripcion                                                       |
-| ------- | ----------------------------------------------------------------- |
-|         | append: añade a las líneas seleccionadas una o más líneas más     |
-|         | change: reemplaza las líneas seleccionadas por un nuevo contenido |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
-|         |                                                                   |
+| Ordenes | Descripcion                                                               |
+| ------- | ------------------------------------------------------------------------- |
+| a       | append: añade a las líneas seleccionadas una o más líneas más             |
+| c       | change: reemplaza las líneas seleccionadas por un nuevo contenido         |
+| d       | delete: borra las líneas seleccionadas                                    |
+| g       | get: copia el contenido del hold space al pattern space                   |
+| G       | GetNewline: añade el contenido del hold space al pattern space            |
+| h       | hold: copia el contenido del pattern space al hold space                  |
+| H       | HoldNewLine: añade el contenido del pattern space al hold space           |
+| i       | insert: inserta una o más líneas antes de las líneas seleccionadas        |
+| l       | listing: muestra todos los caracteres no imprimibles                      |
+| n       | next: cambia a la siguiente orden de la línea siguiente del comando       |
+| p       | print: muestra las líneas seleccionadas                                   |
+| q       | quit: finaliza el comando SED de Linux                                    |
+| r       | read: lee las líneas seleccionadas de un archivo                          |
+| s       | substitute: reemplaza una determinada cadena de caracteres por otra       |
+| x       | xchange: intercambia el pattern space y el hold space entre sí            |
+| y       | yank: sustituye un determinado carácter por otro                          |
+| w       | write: escribe líneas en el archivo de texto                              |
+| !       | Negation: aplica el comando a las líneas que no coinciden con la entrada. |
+
+Las órdenes también se pueden complementar con parámetros:
+
+| Parametro | Descripcion                                            |
+| --------- | ------------------------------------------------------ |
+| =         | Indica el número de línea de las líneas seleccionadas. |
+| p         | Muestra las líneas modificadas.                        |
+| q         | Aplica la orden a todo el archivo.                     |
+
+
 
 
 
