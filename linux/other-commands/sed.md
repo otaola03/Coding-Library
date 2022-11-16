@@ -248,61 +248,11 @@ sed -n '/usr/!p' text.txt
 
 ### Borrar o eliminar texto con sed
 
-Si pretendéis eliminar líneas de texto con Sed podéis hacerlo de la forma que se muestra a continuación.
 
-#### Borrar tan solo una línea de un fichero con sed
 
-Si queremos borrar la línea 7 y obtener el resultado en un nuevo fichero de texto con el nombre `text.txt` ejecutaremos el siguiente comando:
 
-```bash
-sed '7 d' text.txt > newtext.txt
-```
 
-#### Borrar un rango de líneas en un texto
 
-Si lo que pretendemos es borrar un rango de líneas, como por ejemplo de la línea 4 a la línea 6, tan solo hay que ejecutar el siguiente comando:
-
-```bash
-sed '4,6 d' text.txt > newtext.txt
-```
-
-#### Borrar desde una determinada línea hasta el final con sed
-
-Si nuestro objetivo es borrar a partir de una determinada línea, que en nuestro caso es la 3, hasta el final del documento tendremos que usar el siguiente comando:
-
-```bash
-sed -i '3,$d' text.txt
-```
-
-#### Borrar la última línea de un documento
-
-```bash
-sed -i '$d' text.txt
-```
-
-> '$' puede indicar el fianl del fichero o de la linea dependidendo como se utilice
-
-#### Borrar todas las líneas que contengan una determinada cadena de caracteres
-
-Si queremos borrar todas las líneas que contengan la cadena de texto `Hola` ejecutaremos el siguiente comando:
-
-```bash
-sed -i '/hola/d' text.txt
-```
-
-> **Nota**: El comando ejecutado similar a los anteriores. La única diferencia es que en vez de indicar las palabras a sustituir escribimos `d` de delete/borrar.
-
-#### Borrar las líneas vacías de un documento mediante Sed
-
-Sed también permite borrar las líneas vacías de un documento. Para ello tan solo tendremos que buscar una expresión regular que defina que una línea está vacía. En nuestro caso la expresión regular es `^$`
-
-> **Nota**: `^` hace referencia al inicio de la línea. `$` Hace referencia al final de la línea. Si entre el inicio de la línea y el final de la línea no hay nada entonces significa que es una línea vacia.
-
-Si queremos eliminar todas las líneas en blanco tan solo tendremos que usar el siguiente comando:
-
-```bash
-sed -i '/^$/d' text.txt
-```
 
 ### Bibliografia
 
