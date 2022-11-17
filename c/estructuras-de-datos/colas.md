@@ -16,6 +16,8 @@ typedef strcut Cola
 }
 ```
 
+<figure><img src="https://miro.medium.com/max/732/1*2jbpFradIkDF9677ws3sVA.png" alt=""><figcaption></figcaption></figure>
+
 ### Propiedades
 
 * Una colas se puede componer a partir de una lista enlazada
