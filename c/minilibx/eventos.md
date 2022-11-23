@@ -4,7 +4,7 @@ Los eventos son la base para escribir aplicaciones interactivas en MiniLibX. Tod
 
 Tanto X-Window como MacOSX son sistemas gráficos bidireccionales. Por un lado, el programa envía órdenes a la pantalla para mostrar píxeles, imágenes, etc. Por otro lado, puede obtener información del teclado y del ratón asociada a la pantalla. Para ello, el programa recibe "eventos" del teclado o del ratón.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Interfaz X11**
 
@@ -143,7 +143,7 @@ Keycode del ratón para MacOS:
 * Scroll up: 4
 * Scroll down : 5
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Ejemplo
 
