@@ -48,6 +48,10 @@ Una de las cosas más importantes que `mlx_init` inicializa es la pantalla. En p
 
 Esa es la función **`mlx_destroy_display`**. Necesitamos llamarla antes de la función `free` porque necesitamos acceder a la `mlx_ptr` para recuperar la variable display. Ahora, ya no deberíamos tener ninguna fuga.
 
+{% hint style="warning" %}
+**`mlx_destroy_display`**` ``puede que de error de compilación`
+{% endhint %}
+
 ### Ejemplo simple
 
 ```c
