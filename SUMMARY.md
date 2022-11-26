@@ -36,11 +36,7 @@
   * [Colas](c/estructuras-de-datos/colas.md)
   * [Pilas](c/estructuras-de-datos/pilas.md)
 * [Valgrind](c/valgrind.md)
-* [Operadores de bits](c/operadores-de-bits/README.md)
-  * [Elementos de bloque](c/operadores-de-bits/elementos-de-bloque/README.md)
-    * [Titulos y parrafos](c/operadores-de-bits/elementos-de-bloque/titulos-y-parrafos.md)
-    * [Header, Main y Footer](c/operadores-de-bits/elementos-de-bloque/header-main-y-footer.md)
-    * [Section, article y aside](c/operadores-de-bits/elementos-de-bloque/section-article-y-aside.md)
+* [Operadores de bits](c/operadores-de-bits.md)
 * [Procesos e Hilos](c/procesos-e-hilos/README.md)
   * [Fork](c/procesos-e-hilos/fork.md)
   * [Wait](c/procesos-e-hilos/wait.md)
@@ -57,6 +53,10 @@
 ## 🕸 HTML
 
 * [HTML Basics](html/html-basics.md)
+* [Elementos de bloque](html/elementos-de-bloque/README.md)
+  * [Titulos y parrafos](html/elementos-de-bloque/titulos-y-parrafos.md)
+  * [Header, Main y Footer](html/elementos-de-bloque/header-main-y-footer.md)
+  * [Section, article y aside](html/elementos-de-bloque/section-article-y-aside.md)
 * [Elementos en línea](html/elementos-en-linea.md)
 * [Atributos](html/atributos.md)
 * [Enlaces \<a>](html/enlaces-less-than-a-greater-than.md)

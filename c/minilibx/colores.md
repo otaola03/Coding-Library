@@ -31,7 +31,7 @@ int	create_trgb(int t, int r, int g, int b)
 }
 ```
 
-Esta fucnion lo que hace es superponer los 4 int en uno solo, creando una combinacion de sus bites, mediante el [operador de bites ( | )](../operadores-de-bits/#or-or). Sin emabrgo antes de ralizar la comparacion para la superposicon de los bits, tenemos que desplazarlos a sus posicones correspondiente para asi a la hora de juntarlos no se superponga uno encima del otro
+Esta fucnion lo que hace es superponer los 4 int en uno solo, creando una combinacion de sus bites, mediante el [operador de bites ( | )](../operadores-de-bits.md#or-or). Sin emabrgo antes de ralizar la comparacion para la superposicon de los bits, tenemos que desplazarlos a sus posicones correspondiente para asi a la hora de juntarlos no se superponga uno encima del otro
 
 * EL byte de trasparencia (T) esta al final del todo, por lo que habra que desplazarlo 24 posiciones hacia la izquierda
 * El byte del rojo (R) habra que despalzarlo 16 bites
