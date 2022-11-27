@@ -42,7 +42,7 @@ Si no tiene tanto sentido, pero tiene relación con lo comentado en el resto de 
 
 > Si no cumple con ninguna de las condiciones anteriores, pero necesitamos encerrarlo entre dos etiquetas para poder aplicarle estilos o scripts, entonces lo que debemos usar es un Div.
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Aquí tenéis unos ejemplos que os pueden ser de utilidad a la hora de diferenciar las etiquetas article y section:
 
