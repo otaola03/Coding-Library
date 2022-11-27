@@ -47,7 +47,7 @@ Para que quede mas claro observa lo que genera el siguiente codigo:
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Como puedes observar la caja 2 ha "desaparecido". Esto de debe a que como ya no esta en el flujo normal, los demas objetos se comportan como si no existiera y por ello suben todos una posicion hacia arriba. &#x20;
 
@@ -88,7 +88,7 @@ Para que quede mas claro aqui tienes el siguiente ejemplo;
 
 Debería verse así:
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2022-11-25 at 4.39.33 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2022-11-25 at 4.39.33 PM.png" alt=""><figcaption></figcaption></figure>
 
 Ahora, seleccionamos nuestras clases así:&#x20;
 

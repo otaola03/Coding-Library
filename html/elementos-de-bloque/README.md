@@ -4,7 +4,7 @@ Cuando cargas una página web en tu navegador, todos los elementos HTML se organ
 
 Casi todos los elementos HTML siguen alguno de estos patrones:  pertenecen a los **elementos de bloque** o a los **elementos en línea**.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Elementos de bloque**&#x20;
 
@@ -16,7 +16,7 @@ Un **elemento de bloque HTML** es aquel que ocupa **todo el ancho de la página*
 
 Aunque sólo pongas una palabra dentro del elemento `<p>`, ésta ocupará todo el ancho que tiene disponible. En el siguiente ejemplo, puedes ver que el elemento `<p>` ha sido coloreado; aunque sólo una parte tiene realmente texto, el tono azul **va de un extremo de la imagen al otro**.
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Como los elementos de bloque ocupan todo el ancho de la página, suelen agruparse uno sobre otro:
 

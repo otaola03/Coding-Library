@@ -36,7 +36,7 @@
   * [Colas](c/estructuras-de-datos/colas.md)
   * [Pilas](c/estructuras-de-datos/pilas.md)
 * [Valgrind](c/valgrind.md)
-* [Operadores de bits](c/operadores-de-bits/README.md)
+* [Operadores de bits](c/operadores-de-bits.md)
 * [Procesos e Hilos](c/procesos-e-hilos/README.md)
   * [Fork](c/procesos-e-hilos/fork.md)
   * [Wait](c/procesos-e-hilos/wait.md)
@@ -79,8 +79,7 @@
 * [Box Model](css/box-model.md)
 * [Desbordamiento y Colapso de margenes](css/desbordamiento-y-colapso-de-margenes.md)
 * [Display](css/display.md)
-* [Position](css/position/README.md)
-  * [Staking context](css/position/staking-context.md)
+* [Position](css/position.md)
 * [Medidas absolutas y relativas](css/medidas-absolutas-y-relativas.md)
 
 ## 🖥 Sistemas

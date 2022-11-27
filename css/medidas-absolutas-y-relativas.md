@@ -25,3 +25,34 @@ Las más usadas son `em`, `rem`, `%`, `vw`, `vh`, `vmin` y `vmax` aunque tenemos
 
 #### EM y REM
 
+`rem` corresponde a la medida de la "m" de la raiz del documento (html). El estandar del tamaño de fuente por defecto en la raiz del documento es `16px`, que es el tamaño al que el ojo esta mas acostumbrado. Por ello no es recomendable cambair el tamño fuente.  `1rem = 16px`, es decir, 2`rem` siempre va a ser 2`rem`, puesto que el tamaño estandar de fuente no varia. Por elllo para tamaños de fuente es recomendable utilizar siempre `rem`.
+
+> Se utiliza la "m" como referencia, porque es el caracter mas ancho que existe, por ello el tamaño de las demas letras se calcula a partir de esta.
+
+En cambio, `em` corresponde a la medida de la "m" del contexto donde nos encontramos. Es decir un `2em` no tendra el mismo valor en un contenedor con un `font-size: 10px;`, que un un contenedor con un `font-size: 20px;`, en el primero seran `20px` y en el segundo seran `40px`.
+
+`em` se utiliza mas cuando queremso que la medida establecida crezca en proporcionalmete al tamaño del texto. Por ejemplo si creamos un boton y queremos que su `padding` varie de tamaño dependiendo del terxto de este boton.
+
+```css
+.link{
+    background-color: lightcoral;
+    color: black;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    font-szie: 2rem;
+}
+```
+
+En este caso cuanto mas aumentemos el tamaño del letra, el `padding`y el `border-radius` mas grandes seran.&#x20;
+
+#### Porcentage ( % ) y `auto`
+
+El `%` se utiliza para dar medidas en funcion del contenedor. De esta manera se puede conseguir que un elemento crezca proporcionalmente respecto a su padre, consiguiendo asi paginas responsive. El problema viene cuando se empiezan a utilizar margenes. Es decir si yo a un hijo le establezco que coga el 100% del `width` de su padre y ademas le establezco un `margin` de `20px` ocurre los siguiente:
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Con `width: auto;` se cosnigue que el elemento coga el maximo de espacio posible, en funcion del espacio que tenga posible. Es decir con el ejemplo anterior pasaria lo siguiente:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+En resumen, siempre o casis siempre que queiras que un elemento ocupe el 100% del with utiliza siempre `margin: auto;`.

@@ -4,7 +4,7 @@ Cuando comenzamos a trabajar con CSS, es habitual dar estilo con ejemplos muy se
 
 Aunque el esquema general es mucho más amplio (_lo iremos viendo poco a poco_), para empezar, vamos a centrarnos en la sintaxis más básica de los selectores CSS: por etiqueta, por **ID** y por **clases**.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### Selectores elementales
 
