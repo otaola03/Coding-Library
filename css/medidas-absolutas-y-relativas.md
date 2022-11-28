@@ -45,7 +45,7 @@ En cambio, `em` corresponde a la medida de la "m" del contexto donde nos encontr
 
 En este caso cuanto mas aumentemos el tamaño del letra, el `padding`y el `border-radius` mas grandes seran.&#x20;
 
-#### Porcentage ( % ) y `auto`
+#### `width: %;` y `width: auto;`
 
 El `%` se utiliza para dar medidas en funcion del contenedor. De esta manera se puede conseguir que un elemento crezca proporcionalmente respecto a su padre, consiguiendo asi paginas responsive. El problema viene cuando se empiezan a utilizar margenes. Es decir si yo a un hijo le establezco que coga el 100% del `width` de su padre y ademas le establezco un `margin` de `20px` ocurre los siguiente:
 
@@ -56,3 +56,32 @@ Con `width: auto;` se cosnigue que el elemento coga el maximo de espacio posible
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 En resumen, siempre o casis siempre que queiras que un elemento ocupe el 100% del with utiliza siempre `margin: auto;`.
+
+#### `height: %;` y `height: auto;`
+
+`width: auto;` se utiliza cuando qqueremos que el alto de un elemento se calcule con respecto al contenido de su interior. Es decir si no hay nada en su interior no sera visible la caja.
+
+{% hint style="info" %}
+`height` es una propiedad que hay que utilizar con mucho cuidado. Si no es necesario establecer un alto, es mejor dejar que el contenido sea el que decida el alto del elemento
+{% endhint %}
+
+Por otro lado, `height: 100%;` sirve para que el elemento al que se le aplica esta propiedad coga el 100% de la altura de su padre. Sin embargo si el el padre no tienen un height declarado, como suele pasar normalmente con el `body`, todos los hijo directos a los que se les aplique esta propiedad solo ocupara la altura de su contenido y no el 100% del contenido exterior.
+
+#### Viewport
+
+Un viewport representa la región poligonal (normalmente rectangular) en gráficas de computación que está siendo visualizada en ese instante. En términos de navegadores web, se refiere a la parte del documento que usted está viendo, la cual es actualmente visible en su ventana (o la pantalla, si el documento está siendo visto en modo pantalla completa). El contenido fuera del viewport no es visible en la pantalla hasta que sea desplazado dentro de él.
+
+> El area util donde se mostrara la pagina web. El area visible sin hacer scoll
+
+Podemos usar el viewport como medida de varias formas:
+
+* vw-> Viewport Width, hace referencia al ancho del viewport.
+* vh -> Viewport Height, hace referencia al alto del viewport.
+* vmax -> Utiliza el valor más grande entre el ancho y el alto del viewport.
+* vmin -> Utiliza el valor más pequeño entre el ancho y el alto del viewport.
+
+> 1vh = 1% del alto del viewport
+>
+> 1vmin = 1% del valor que sea más pequeño del viewport
+
+En el caso de que queramos qque un elemnto ocupe el 100% del ancho de una pagina, no es recomendable utilizar `width: 100vw;` puesto que esto tambien en cuneta la barra de scroll y no dara un resultado que no esperamos.
