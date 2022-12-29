@@ -41,6 +41,7 @@
   * [Fork](c/procesos-e-hilos/fork.md)
   * [Wait](c/procesos-e-hilos/wait.md)
   * [Waitpid](c/procesos-e-hilos/page-1.md)
+  * [Semáforos](c/procesos-e-hilos/semaforos.md)
 * [MiniLibX](c/minilibx/README.md)
   * [Ventanas (windows)](c/minilibx/ventanas-windows.md)
   * [Imprimir Pixels](c/minilibx/imprimir-pixels.md)

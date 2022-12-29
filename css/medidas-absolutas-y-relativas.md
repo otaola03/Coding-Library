@@ -49,7 +49,7 @@ En este caso cuanto mas aumentemos el tamaño del letra, el `padding`y el `borde
 
 El `%` se utiliza para dar medidas en funcion del contenedor. De esta manera se puede conseguir que un elemento crezca proporcionalmente respecto a su padre, consiguiendo asi paginas responsive. El problema viene cuando se empiezan a utilizar margenes. Es decir si yo a un hijo le establezco que coga el 100% del `width` de su padre y ademas le establezco un `margin` de `20px` ocurre los siguiente:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 Con `width: auto;` se cosnigue que el elemento coga el maximo de espacio posible, en funcion del espacio que tenga posible. Es decir con el ejemplo anterior pasaria lo siguiente:
 

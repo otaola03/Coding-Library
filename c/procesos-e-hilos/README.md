@@ -16,6 +16,8 @@ La única forma que tiene el sistema para identificar un proceso es mediante un 
 
 Esto hace imprescindible el uso de [semáforos](https://www.chuidiang.org/clinux/ipcs/semaforo.php) o mutex (EXclusión MUTua, que en inglés es al revés, funciones **pthread\_mutex...**) para evitar que dos threads accedan a la vez a la misma estructura de datos. También hace que si un hilo "se equivoca" y corrompe una zona de memoria, todos los demás hilos del mismo proceso vean la memoria corrompida. Un fallo en un hilo puede hacer fallar a todos los demás hilos del mismo proceso.
 
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
 ### ¿Proceso o hilo?
 
 &#x20;¿Qué elegimos? ¿Un proceso o un hilo?. Depende de muchos factores, pero yo (y es cosa mia, que tengo un PC obsoleto con linux), suelo elegir procesos cuando una vez lanzado el hijo no requiero demasiada comunicación con él. Elijo hilos cuando tienen que compartir y actualizarse datos.

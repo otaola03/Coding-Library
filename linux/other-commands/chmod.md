@@ -72,7 +72,7 @@ Con el metodo simbolico simepre que queiras agregar o quitar permisos a alguna d
 chmod ug-w
 ```
 
-### Agrgar y quitar permisos con el metodo ocatal
+### Agregar y quitar permisos con el metodo octal
 
 Aunque la notación simbólica es una de las más utilizadas, su uso frecuente puede hacerla inmanejable. Por esta razón, muchos administradores recurren a la notación octal a la hora de atribuir derechos. Se trata de un número de tres cifras en el que cada posición representa una clase de usuario del servidor. La notación octal sigue siempre el mismo orden:
 
