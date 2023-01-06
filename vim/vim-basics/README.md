@@ -50,6 +50,7 @@ Además de usar los cursores para movernos por el archivo, podemos movernos de u
 * _**Mayús+g**_ –> Ir a la última línea del fichero.
 * _**Num+G**_ –> Ir a una línea determinada. Por ejemplo 14G llevaría el cursor a la línea 14.
 * **Num+%** -> te lleva al porcentaje del docuemnto que deseas
+* **Mayus + -** --> se coloca al principio de la linea
 
 #### Para moverse en la misma lieas:
 
