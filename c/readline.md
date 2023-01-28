@@ -240,13 +240,17 @@ En el ejemplo que te di, después de llamar a rl\_replace\_line con el texto "Th
 #include <readline/readline.h>
 
 int main() {
-    char *input;
-    input = readline("Enter a line of text: ");
-    printf("You entered: %s\n", input);
-    rl_replace_line("This is the new line", 0);
-    rl_redisplay();
-    input = readline("Enter another line of text: ");
-    printf("You entered: %s\n", input);
+    char *input = "";
+    char *new_line = "This is the new line content";
+
+    // get initial input
+    input = readline("Enter some text: ");
+    printf("Original input: %s\n", input);
+
+    // replace the current line with new content
+    rl_replace_line(new_line, 0);
+    printf("New input: %s\n", rl_line_buffer);
+
     return 0;
 }
 ```
