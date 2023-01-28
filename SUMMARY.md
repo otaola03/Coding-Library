@@ -50,6 +50,7 @@
   * [Eventos](c/minilibx/eventos.md)
   * [Loops (bucles)](c/minilibx/loops-bucles.md)
   * [Leer imagenes](c/minilibx/leer-imagenes.md)
+* [Readline](c/readline.md)
 
 ## 🕸 HTML
 
