@@ -51,6 +51,9 @@
   * [Loops (bucles)](c/minilibx/loops-bucles.md)
   * [Leer imagenes](c/minilibx/leer-imagenes.md)
 * [Readline](c/readline.md)
+* [Funciones](c/funciones/README.md)
+  * [opendir](c/funciones/opendir.md)
+  * [access](c/funciones/access.md)
 
 ## 🕸 HTML
 
