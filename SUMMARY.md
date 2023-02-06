@@ -57,6 +57,18 @@
   * [opendir](c/funciones/opendir.md)
   * [access](c/funciones/access.md)
 
+## 🧠 Pyhton
+
+* [Sintaxis basica](pyhton/sintaxis-basica.md)
+* [Scripts](pyhton/scripts.md)
+* [Estructuras de control](pyhton/estructuras-de-control/README.md)
+  * [Iterar con For](pyhton/estructuras-de-control/iterar-con-for.md)
+  * [Iterar con zip](pyhton/estructuras-de-control/iterar-con-zip.md)
+* [Funciones](pyhton/funciones.md)
+* [Tipos de datos](pyhton/tipos-de-datos/README.md)
+  * [Listas](pyhton/tipos-de-datos/listas.md)
+  * [Set](pyhton/tipos-de-datos/set.md)
+
 ## 🕸 HTML
 
 * [HTML Basics](html/html-basics.md)
