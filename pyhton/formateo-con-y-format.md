@@ -7,7 +7,7 @@ Hay varias formas de formatear cadenas en Python, pero la más común es utiliza
 La sintaxis básica para el formateo de strings con {} y format() es la siguiente:
 
 ```python
-pythonCopy code"{} es un número".format(5)
+code"{} es un número".format(5)
 ```
 
 Este código devolverá la cadena "5 es un número".
@@ -15,7 +15,7 @@ Este código devolverá la cadena "5 es un número".
 Se pueden especificar varios valores a formatear en una sola cadena, separados por comas dentro de los paréntesis de format(). Los valores se reemplazarán en el orden en que aparecen en la cadena:
 
 ```python
-pythonCopy code"{} y {} son números".format(3, 5)
+code"{} y {} son números".format(3, 5)
 ```
 
 Este código devolverá la cadena "3 y 5 son números".
@@ -23,7 +23,7 @@ Este código devolverá la cadena "3 y 5 son números".
 También es posible especificar una posición para cada valor a formatear dentro de la cadena utilizando los números 0, 1, 2, etc. para hacer referencia a su posición dentro de los paréntesis de format():
 
 ```python
-pythonCopy code"{0} y {1} son números".format(3, 5)
+code"{0} y {1} son números".format(3, 5)
 ```
 
 Este código devolverá la misma cadena que el ejemplo anterior: "3 y 5 son números".

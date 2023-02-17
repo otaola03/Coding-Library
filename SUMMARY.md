@@ -64,11 +64,14 @@
 * [Tipos de datos](pyhton/tipos-de-datos/README.md)
   * [Listas](pyhton/tipos-de-datos/listas.md)
   * [Set](pyhton/tipos-de-datos/set.md)
+  * [Diccionarios](pyhton/tipos-de-datos/diccionarios.md)
 * [Formateo con {} y format()](pyhton/formateo-con-y-format.md)
 * [Estructuras de control](pyhton/estructuras-de-control/README.md)
   * [Iterar con For](pyhton/estructuras-de-control/iterar-con-for.md)
   * [Iterar con zip](pyhton/estructuras-de-control/iterar-con-zip.md)
 * [Funciones](pyhton/funciones.md)
+* [Clases](pyhton/clases/README.md)
+  * [Metodos](pyhton/clases/metodos.md)
 
 ## 🕸 HTML
 

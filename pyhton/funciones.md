@@ -92,5 +92,3 @@ imprimir_argumentos_nombre(nombre="Juan", edad=30)
 
 En resumen, las funciones son una herramienta fundamental en Python para escribir código modular y reutilizable. Pueden recibir y procesar argumentos de entrada y devolver resultados, lo que las hace muy útiles para organizar el código en tareas más pequeñas y manejables.
 
-### Paso por valor y referencia <a href="#paso-por-valor-y-referencia" id="paso-por-valor-y-referencia"></a>
-
