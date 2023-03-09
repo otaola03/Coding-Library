@@ -72,6 +72,7 @@
 * [Funciones](pyhton/funciones.md)
 * [Clases](pyhton/clases/README.md)
   * [Metodos](pyhton/clases/metodos.md)
+  * [Herencia](pyhton/clases/herencia.md)
 
 ## 🕸 HTML
 
