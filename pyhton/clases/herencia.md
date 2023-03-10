@@ -32,15 +32,24 @@ En este ejemplo, se define una clase `Animal` que tiene un método constructor q
 
 En la declaración de la clase `Dog`, la clase padre `Animal` se indica entre paréntesis. Esto indica que `Dog` hereda de `Animal`. Cuando se invoca al constructor de la clase `Dog`, también se invoca al constructor de la clase `Animal` automáticamente. Es decir, se puede llamar al constructor de la clase padre usando `super()`, que es una referencia a la clase padre. Por ejemplo:
 
-```python
-class Animal:
+<pre class="language-python"><code class="lang-python">class Animal:
     def __init__(self, name):
         self.name = name
 
-class Dog(Animal):
-    def __init__(self, name, breed):
+<strong>class Dog(Animal):
+</strong>    def __init__(self, name, breed):
         super().__init__(name)
         self.breed = breed
-```
+</code></pre>
 
 En este ejemplo, se define una clase `Dog` que también hereda de `Animal`. `Dog` redefine el constructor `__init__` para tomar dos argumentos: `name` y `breed`. La primera línea del constructor de la clase `Dog` llama al constructor de la clase `Animal` utilizando `super()`, pasándole el argumento `name`. Luego, se define un nuevo atributo `breed` en la clase `Dog`.
+
+Esto puede ser util cuando estamos heredando de tan solo una clase. En cambio si nuestra nueva calse hereda de mas de una clase tnedremos que hacer referencia a esa clase para inicializarla. Esto se hace de la sigueinte manera:
+
+```python
+class Dog(Animal, Canine):
+    def __init__(self, name, breed, breed):
+        Animal.__init__(name)
+        Canine.__init__(breed)
+        self.breed = breed
+```
