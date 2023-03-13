@@ -74,7 +74,7 @@
   * [Metodos](pyhton/clases/metodos.md)
   * [Herencia](pyhton/clases/herencia.md)
 
-## 🕸 HTML
+## ⚒ HTML
 
 * [HTML Basics](html/html-basics.md)
 * [Elementos de bloque](html/elementos-de-bloque/README.md)
@@ -109,3 +109,9 @@
 ## 🖥 Sistemas
 
 * [Particiones](sistemas/particiones.md)
+
+## 🕸 Redes
+
+* [IP Adress](redes/ip-adress.md)
+* [Subnet Mask](redes/subnet-mask.md)
+* [Page 1](redes/page-1.md)
