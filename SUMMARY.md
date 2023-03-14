@@ -66,15 +66,16 @@
   * [Set](pyhton/tipos-de-datos/set.md)
   * [Diccionarios](pyhton/tipos-de-datos/diccionarios.md)
   * [Generadores](pyhton/tipos-de-datos/generadores.md)
-* [Formateo con {} y format()](pyhton/formateo-con-y-format.md)
 * [Estructuras de control](pyhton/estructuras-de-control/README.md)
   * [Iterar con For](pyhton/estructuras-de-control/iterar-con-for.md)
   * [Iterar con zip](pyhton/estructuras-de-control/iterar-con-zip.md)
   * [Iterar con enumerate](pyhton/estructuras-de-control/iterar-con-enumerate.md)
+* [Map, Filter and Reduce](pyhton/map-filter-and-reduce.md)
 * [Funciones](pyhton/funciones.md)
 * [Clases](pyhton/clases/README.md)
   * [Metodos](pyhton/clases/metodos.md)
   * [Herencia](pyhton/clases/herencia.md)
+* [Formateo con {} y format()](pyhton/formateo-con-y-format.md)
 
 ## ⚒ HTML
 

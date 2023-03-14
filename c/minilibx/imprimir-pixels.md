@@ -90,7 +90,7 @@ int render_rect(t_data *data, t_rect rect)
 
 Antes del `mlx_pixel_put` es recomendable checkear si la ventana sigue abierta comprobando si el puntero que apunta a esta no es `NULL`, para asi no imprimir en una ventana que no existe.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Aqui se puede ver como se imprimen dos cuadrados de 100x100, en la posicion (0,0) y en la (WITH -100, HEIGHT - 100)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Aqui se puede ver como se imprimen dos cuadrados de 100x100, en la posicion (0,0) y en la (WITH -100, HEIGHT - 100)</p></figcaption></figure>
 
 ### INCONVENIENTES de `mlx_pixel_put`&#x20;
 
