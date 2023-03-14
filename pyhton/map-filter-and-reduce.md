@@ -1,5 +1,7 @@
 # Map, Filter and Reduce
 
+{% embed url="https://www.youtube.com/watch?v=hUes6y2b--0" %}
+
 ### Map
 
 La función `map()` es una función incorporada en Python que se utiliza para aplicar una función a cada elemento de una lista o iterador y devolver un nuevo objeto iterable con los resultados.
@@ -100,3 +102,8 @@ En este ejemplo, la función `contiene_letra()` toma dos argumentos, `letra` y `
 #### Conclusión
 
 La función `filter()` es una herramienta poderosa para filtrar elementos de una secuencia según una función dada. Se puede utilizar una función lambda o una función definida por el usuario para especificar la condición de filtrado. La función `filter()` devuelve un iterador que contiene solo los elementos de la secuencia que cumplen la condición.
+
+### Bibliograffia
+
+* [https://www.youtube.com/watch?v=kYIrDMbqunw](https://www.youtube.com/watch?v=kYIrDMbqunw)
+* [https://www.youtube.com/watch?v=3up-LltcfSw](https://www.youtube.com/watch?v=3up-LltcfSw)
