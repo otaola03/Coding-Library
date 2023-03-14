@@ -92,3 +92,31 @@ imprimir_argumentos_nombre(nombre="Juan", edad=30)
 
 En resumen, las funciones son una herramienta fundamental en Python para escribir código modular y reutilizable. Pueden recibir y procesar argumentos de entrada y devolver resultados, lo que las hace muy útiles para organizar el código en tareas más pequeñas y manejables.
 
+### Funciones Lambda
+
+Las funciones lambda en Python son funciones anónimas que se definen en una sola línea y no tienen un nombre definido. Son útiles para crear funciones pequeñas y simples que se utilizan solo una vez en un programa y no es necesario definirlas formalmente.
+
+Las funciones lambda se definen utilizando la palabra clave `lambda` seguida de una lista de argumentos separados por comas, seguida de dos puntos y una expresión que se evalúa y devuelve un valor. La sintaxis básica es la siguiente:
+
+```python
+lambda argument1, argument2, ... : expresion
+```
+
+Por ejemplo, para crear una función lambda que tome dos argumentos y los multiplique, podemos escribir:
+
+```python
+multiplicar = lambda x, y: x * y
+```
+
+Aquí, `multiplicar` es el nombre que se le asigna a la función lambda que acabamos de definir. La función toma dos argumentos, `x` e `y`, y devuelve su producto.
+
+La función lambda se puede utilizar de la misma manera que cualquier otra función en Python. Por ejemplo, podemos llamar a la función `multiplicar` con los argumentos `2` y `3`:
+
+```python
+resultado = multiplicar(2, 3)
+print(resultado)  # Imprime 6
+```
+
+También podemos pasar la función lambda como argumento a otras funciones, como la función `map()`, que aplica una función a cada elemento de una lista.
+
+En resumen, las funciones lambda en Python son una forma de definir funciones pequeñas y simples en una sola línea sin necesidad de darles un nombre formal. Son útiles para crear funciones que se utilizan solo una vez en un programa y para pasar funciones como argumentos a otras funciones.
