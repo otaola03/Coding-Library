@@ -76,6 +76,7 @@
   * [Metodos](pyhton/clases/metodos.md)
   * [Herencia](pyhton/clases/herencia.md)
 * [Formateo con {} y format()](pyhton/formateo-con-y-format.md)
+* [Decoradores](pyhton/decoradores.md)
 
 ## ⚒ HTML
 
