@@ -14,14 +14,21 @@ La Programación Orientada a Objetos (POO) es un enfoque de programación que se
 
 La diferencia entre una clase y una instancia es que una clase es un modelo o plantilla para crear objetos con características similares. Por otro lado, una instancia es un objeto concreto creado a partir de una clase. En el ejemplo, la clase `Perro` es un modelo para crear objetos de tipo `Perro`, mientras que `perro_1` es una instancia de la clase `Perro`.
 
-Aquí hay un ejemplo de cómo declarar una clase en Python:
+Aquí hay un ejemplo de cómo declarar una clase en Python 3.x:
 
 ```python
 class Perro:
     pass:
 ```
 
-En este ejemplo, hemos creado una clase llamada "Empleado" que define un objeto "Empleado".&#x20;
+En cambio en Python 2.x al crear una clase esta tiene que heredar de la clase `object`, que es la clase base de todas la clases.
+
+En este ejemplo, hemos creado una clase llamada "Empleado" que define un objeto "Empleado". Esto se llama "herencia nueva", ya que permite a la clase heredar todas las características y métodos de la clase `object`. La notacion es la siguiente:
+
+```python
+class Perro(object):
+    pass
+```
 
 {% hint style="info" %}
 La sentencia `pass` sirve para poder declarar una clase, funcion... vacia
