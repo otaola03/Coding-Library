@@ -139,6 +139,30 @@ class MiClase
 };
 ```
 
+#### Constructor Initializer List
+
+La lista de inicialización de constructor es una sección especial dentro de la definición del constructor de una clase en C++. Se coloca antes del cuerpo del constructor y utiliza la sintaxis de una lista separada por comas para asignar valores a los miembros de la clase.
+
+```cpp
+class MiClase {
+private:
+    int miEntero;
+    float miFloat;
+public:
+    MiClase(int entero, float flotante) : miEntero(entero), miFloat(flotante) {
+        // Cuerpo del constructor
+    }
+};
+```
+
+En el ejemplo anterior, la lista de inicialización de constructor `: miEntero(entero), miFloat(flotante)` asigna los valores pasados como argumentos `entero` y `flotante` a los miembros correspondientes `miEntero` y `miFloat` de la clase `MiClase`.&#x20;
+
+La lista de inicialización de constructor proporciona varias ventajas en términos de rendimiento y claridad del código:
+
+1. **Eficiencia**: Al utilizar la lista de inicialización, los miembros de la clase se inicializan directamente con los valores proporcionados, lo que evita la necesidad de asignarlos en el cuerpo del constructor. Esto puede resultar en una mayor eficiencia, especialmente cuando se trata de tipos de datos complejos o costosos de inicializar.
+2. **Orden de inicialización**: La lista de inicialización de constructor permite especificar el orden en que se inicializan los miembros de la clase. Esto es útil cuando los miembros dependen entre sí y es importante establecer un orden específico de inicialización.
+3. **Miembros constantes y de referencia**: Algunos miembros de clase, como variables constantes o referencias, solo se pueden inicializar en la lista de inicialización de constructor. No es posible asignarles valores en el cuerpo del constructor.
+
 ### Getters y Setters
 
 Los getters y setters son métodos utilizados para acceder y modificar los valores de variables miembro de una clase desde fuera de la misma. Proporcionan un mecanismo para encapsular el acceso a los datos y mantener el principio de ocultamiento de información en la programación orientada a objetos.
@@ -234,6 +258,4 @@ Los métodos estáticos se invocan utilizando el nombre de la clase seguido del 
 MiClase::metodoEstatico(); // Invocación del método estático
 ```
 
-En este ejemplo, se invoca el método estático `metodoEstatico()` de la clase `MiClase`.
-
-\
+En este ejemplo, se invoca el método estático `metodoEstatico()` de la clase `MiClase`.\
