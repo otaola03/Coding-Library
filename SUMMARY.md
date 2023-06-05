@@ -59,8 +59,9 @@
 
 ## 🌃 C++
 
-* [Clases](c++/clases/README.md)
+* [Clases](c++/clases.md)
   * [Herencia](c++/clases/herencia.md)
+  * [Shallow and deeps copies](c++/clases/shallow-and-deeps-copies.md)
 * [Punteros y referencias](c++/punteros-y-referencias.md)
 * [Manejo de ficheros](c++/manejo-de-ficheros.md)
 * [Punteros a funciones](c++/punteros-a-funciones.md)
