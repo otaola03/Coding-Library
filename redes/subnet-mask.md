@@ -18,10 +18,7 @@ La razón por la que el número máximo utilizado en la máscara de subred es 25
 
 Para entenderlo mejor, podemos ver la tabla de conversión de binario a decimal:
 
-| 128 | 64 | 32 | 16 | 8  | 4  | 2  | 1  |
-| --- | -- | -- | -- | -- | -- | -- | -- |
-| 2⁷  | 2⁶ | 2⁵ | 2⁴ | 2³ | 2² | 2¹ | 2⁰ |
-| 1   | 1  | 1  | 1  | 1  | 1  | 1  | 1  |
+<table><thead><tr><th width="97">128</th><th>64</th><th>32</th><th>16</th><th>8</th><th>4</th><th>2</th><th>1</th></tr></thead><tbody><tr><td>2⁷</td><td>2⁶</td><td>2⁵</td><td>2⁴</td><td>2³</td><td>2²</td><td>2¹</td><td>2⁰</td></tr><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr></tbody></table>
 
 En esta tabla, cada número decimal (de 1 a 128) se corresponde con una posición en el octeto de 8 bits. Cada posición puede tener un valor de 0 o 1, lo que permite la combinación de hasta 255 en un solo octeto.
 

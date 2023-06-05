@@ -55,12 +55,7 @@ La mayoría de los escenarios de aplicación resultan de la **encadenación de l
 
 
 
-| **Desviación**  | **Símbolo** | **Aplicación** | **Explicación**                                                                                                    |
-| --------------- | ----------- | -------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Pipe            | \|          | cmd1 \| cmd2   |   Reenvía la salida del comando cmd1 a la entrada del comando cmd2                                                 |
-| Input-Redirect  | <           | cmd < data     | Lee los datos de entrada del comando cmd del archivo                                                               |
-| Output-Redirect | >           | cmd > data     | Escribe los datos de salida del comando cmd en el archivo; si es necesario, se sobrescribe el archivo ya existente |
-| Output-Redirect | >>          | cmd >> data    | Escribe los datos de salida del comando cmd en el archivo; si es necesario, se amplía el archivo ya existente      |
+<table data-header-hidden><thead><tr><th width="176"></th><th width="117"></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Desviación</strong></td><td><strong>Símbolo</strong></td><td><strong>Aplicación</strong></td><td><strong>Explicación</strong></td></tr><tr><td>Pipe</td><td>|</td><td>cmd1 | cmd2</td><td>  Reenvía la salida del comando cmd1 a la entrada del comando cmd2</td></tr><tr><td>Input-Redirect</td><td>&#x3C;</td><td>cmd &#x3C; data</td><td>Lee los datos de entrada del comando cmd del archivo</td></tr><tr><td>Output-Redirect</td><td>></td><td>cmd > data</td><td>Escribe los datos de salida del comando cmd en el archivo; si es necesario, se sobrescribe el archivo ya existente</td></tr><tr><td>Output-Redirect</td><td>>></td><td>cmd >> data</td><td>Escribe los datos de salida del comando cmd en el archivo; si es necesario, se amplía el archivo ya existente</td></tr></tbody></table>
 
 Linux Cat **suele comenzar con una sucesión de otros comandor Linux**. Aquí te mostramos los más usados:
 

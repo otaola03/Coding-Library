@@ -22,20 +22,7 @@ En MacOS - Cocoa (AppKit) y OpenGL - versión, minilibx tiene soporte parcial de
 
 Hay una serie de eventos que se pueden describir.
 
-| Key  | Event          |   | Key  | Event            |   | Key  | Event            |
-| ---- | -------------- | - | ---- | ---------------- | - | ---- | ---------------- |
-| `02` | KeyPress       |   | `14` | NoExpose         |   | `26` | CirculateNotify  |
-| `03` | KeyRelease     |   | `15` | VisibilityNotify |   | `27` | CirculateRequest |
-| `04` | ButtonPress    |   | `16` | CreateNotify     |   | `28` | PropertyNotify   |
-| `05` | ButtonRelease  |   | `17` | DestroyNotify    |   | `29` | SelectionClear   |
-| `06` | MotionNotify   |   | `18` | UnmapNotify      |   | `30` | SelectionRequest |
-| `07` | EnterNotify    |   | `19` | MapNotify        |   | `31` | SelectionNotify  |
-| `08` | LeaveNotify    |   | `20` | MapRequest       |   | `32` | ColormapNotify   |
-| `09` | FocusIn        |   | `21` | ReparentNotify   |   | `33` | ClientMessage    |
-| `10` | FocusOut       |   | `22` | ConfigureNotify  |   | `34` | MappingNotify    |
-| `11` | KeymapNotify   |   | `23` | ConfigureRequest |   | `35` | GenericEvent     |
-| `12` | Expose         |   | `24` | GravityNotify    |   | `36` | LASTEvent        |
-| `13` | GraphicsExpose |   | `25` | ResizeRequest    |   |      |                  |
+<table><thead><tr><th>Key</th><th width="162">Event</th><th width="74"></th><th>Key</th><th width="191">Event</th><th width="72"></th><th>Key</th><th>Event</th></tr></thead><tbody><tr><td><code>02</code></td><td>KeyPress</td><td> </td><td><code>14</code></td><td>NoExpose</td><td> </td><td><code>26</code></td><td>CirculateNotify</td></tr><tr><td><code>03</code></td><td>KeyRelease</td><td> </td><td><code>15</code></td><td>VisibilityNotify</td><td> </td><td><code>27</code></td><td>CirculateRequest</td></tr><tr><td><code>04</code></td><td>ButtonPress</td><td> </td><td><code>16</code></td><td>CreateNotify</td><td> </td><td><code>28</code></td><td>PropertyNotify</td></tr><tr><td><code>05</code></td><td>ButtonRelease</td><td> </td><td><code>17</code></td><td>DestroyNotify</td><td> </td><td><code>29</code></td><td>SelectionClear</td></tr><tr><td><code>06</code></td><td>MotionNotify</td><td> </td><td><code>18</code></td><td>UnmapNotify</td><td> </td><td><code>30</code></td><td>SelectionRequest</td></tr><tr><td><code>07</code></td><td>EnterNotify</td><td> </td><td><code>19</code></td><td>MapNotify</td><td> </td><td><code>31</code></td><td>SelectionNotify</td></tr><tr><td><code>08</code></td><td>LeaveNotify</td><td> </td><td><code>20</code></td><td>MapRequest</td><td> </td><td><code>32</code></td><td>ColormapNotify</td></tr><tr><td><code>09</code></td><td>FocusIn</td><td> </td><td><code>21</code></td><td>ReparentNotify</td><td> </td><td><code>33</code></td><td>ClientMessage</td></tr><tr><td><code>10</code></td><td>FocusOut</td><td> </td><td><code>22</code></td><td>ConfigureNotify</td><td> </td><td><code>34</code></td><td>MappingNotify</td></tr><tr><td><code>11</code></td><td>KeymapNotify</td><td> </td><td><code>23</code></td><td>ConfigureRequest</td><td> </td><td><code>35</code></td><td>GenericEvent</td></tr><tr><td><code>12</code></td><td>Expose</td><td> </td><td><code>24</code></td><td>GravityNotify</td><td> </td><td><code>36</code></td><td>LASTEvent</td></tr><tr><td><code>13</code></td><td>GraphicsExpose</td><td> </td><td><code>25</code></td><td>ResizeRequest</td><td> </td><td> </td><td> </td></tr></tbody></table>
 
 #### Mascaras X11
 
@@ -43,21 +30,7 @@ Cada evento X11, también tiene una máscara correspondiente. De este modo, pued
 
 
 
-| Mask       | Description           |      | Mask       | Description              |
-| ---------- | --------------------- | ---- | ---------- | ------------------------ |
-| `0L`       | NoEventMask           |      | `(1L<<12)` | Button5MotionMask        |
-| `(1L<<0)`  | KeyPressMask          |      | `(1L<<13)` | ButtonMotionMask         |
-| `(1L<<1)`  | KeyReleaseMask        |      | `(1L<<14)` | KeymapStateMask          |
-| `(1L<<2)`  | ButtonPressMask       |      | `(1L<<15)` | ExposureMask             |
-| `(1L<<3)`  | ButtonReleaseMask     |      | `(1L<<16)` | VisibilityChangeMask     |
-| `(1L<<4)`  | EnterWindowMask       |      | `(1L<<17)` | StructureNotifyMask      |
-| `(1L<<5)`  | LeaveWindowMask       |      | `(1L<<18)` | ResizeRedirectMask       |
-| `(1L<<6)`  | PointerMotionMask     |      | `(1L<<19)` | SubstructureNotifyMask   |
-| `(1L<<7)`  | PointerMotionHintMask |      | `(1L<<20)` | SubstructureRedirectMask |
-| `(1L<<8)`  | Button1MotionMask     |      | `(1L<<21)` | FocusChangeMask          |
-| `(1L<<9)`  | Button2MotionMask     |      | `(1L<<22)` | PropertyChangeMask       |
-| `(1L<<10)` | Button3MotionMask     |      | `(1L<<23)` | ColormapChangeMask       |
-| `(1L<<11)` | Button4MotionMask     |      | `(1L<<24)` | OwnerGrabButtonMask      |
+<table><thead><tr><th width="137">Mask</th><th width="213">Description</th><th width="40">    </th><th width="123">Mask</th><th width="247">Description</th></tr></thead><tbody><tr><td><code>0L</code></td><td>NoEventMask</td><td> </td><td><code>(1L&#x3C;&#x3C;12)</code></td><td>Button5MotionMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;0)</code></td><td>KeyPressMask</td><td> </td><td><code>(1L&#x3C;&#x3C;13)</code></td><td>ButtonMotionMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;1)</code></td><td>KeyReleaseMask</td><td> </td><td><code>(1L&#x3C;&#x3C;14)</code></td><td>KeymapStateMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;2)</code></td><td>ButtonPressMask</td><td> </td><td><code>(1L&#x3C;&#x3C;15)</code></td><td>ExposureMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;3)</code></td><td>ButtonReleaseMask</td><td> </td><td><code>(1L&#x3C;&#x3C;16)</code></td><td>VisibilityChangeMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;4)</code></td><td>EnterWindowMask</td><td> </td><td><code>(1L&#x3C;&#x3C;17)</code></td><td>StructureNotifyMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;5)</code></td><td>LeaveWindowMask</td><td> </td><td><code>(1L&#x3C;&#x3C;18)</code></td><td>ResizeRedirectMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;6)</code></td><td>PointerMotionMask</td><td> </td><td><code>(1L&#x3C;&#x3C;19)</code></td><td>SubstructureNotifyMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;7)</code></td><td>PointerMotionHintMask</td><td> </td><td><code>(1L&#x3C;&#x3C;20)</code></td><td>SubstructureRedirectMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;8)</code></td><td>Button1MotionMask</td><td> </td><td><code>(1L&#x3C;&#x3C;21)</code></td><td>FocusChangeMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;9)</code></td><td>Button2MotionMask</td><td> </td><td><code>(1L&#x3C;&#x3C;22)</code></td><td>PropertyChangeMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;10)</code></td><td>Button3MotionMask</td><td> </td><td><code>(1L&#x3C;&#x3C;23)</code></td><td>ColormapChangeMask</td></tr><tr><td><code>(1L&#x3C;&#x3C;11)</code></td><td>Button4MotionMask</td><td> </td><td><code>(1L&#x3C;&#x3C;24)</code></td><td>OwnerGrabButtonMask</td></tr></tbody></table>
 
 ### AppleScript key codes
 
@@ -93,15 +66,7 @@ Las funciones de evento tienen un prototipo diferente dependiendo del evento de 
 
 
 
-| Hooking event   | code | Prototype                                         |
-| --------------- | ---- | ------------------------------------------------- |
-| ON\_KEYDOWN     | 2    | `int (*f)(int keycode, void *param)`              |
-| ON\_KEYUP\*     | 3    | `int (*f)(int keycode, void *param)`              |
-| ON\_MOUSEDOWN\* | 4    | `int (*f)(int button, int x, int y, void *param)` |
-| ON\_MOUSEUP     | 5    | `int (*f)(int button, int x, int y, void *param)` |
-| ON\_MOUSEMOVE   | 6    | `int (*f)(int x, int y, void *param)`             |
-| ON\_EXPOSE\*    | 12   | `int (*f)(void *param)`                           |
-| ON\_DESTROY     | 17   | `int (*f)(void *param)`                           |
+<table><thead><tr><th>Hooking event</th><th width="78">code</th><th width="432">Prototype</th></tr></thead><tbody><tr><td>ON_KEYDOWN</td><td>2</td><td><code>int (*f)(int keycode, void *param)</code></td></tr><tr><td>ON_KEYUP*</td><td>3</td><td><code>int (*f)(int keycode, void *param)</code></td></tr><tr><td>ON_MOUSEDOWN*</td><td>4</td><td><code>int (*f)(int button, int x, int y, void *param)</code></td></tr><tr><td>ON_MOUSEUP</td><td>5</td><td><code>int (*f)(int button, int x, int y, void *param)</code></td></tr><tr><td>ON_MOUSEMOVE</td><td>6</td><td><code>int (*f)(int x, int y, void *param)</code></td></tr><tr><td>ON_EXPOSE*</td><td>12</td><td><code>int (*f)(void *param)</code></td></tr><tr><td>ON_DESTROY</td><td>17</td><td><code>int (*f)(void *param)</code></td></tr></tbody></table>
 
 El prototipo hacer referencia al prototipo de la funcion que le pasamos como parametro ( int \*f() ) a mlx\_hook o a cualquiera de sus alias.
 

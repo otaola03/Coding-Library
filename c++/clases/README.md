@@ -52,7 +52,7 @@ El modificador de acceso `public` es útil cuando queremos permitir un acceso am
 
 El modificador de acceso `private` restringe el acceso a los miembros de una clase solo a la propia clase. Los miembros privados no pueden ser accedidos o modificados directamente desde fuera de la clase.
 
-> Los miembros privados solo son accesibles desde dentro de la propia clase y no se pueden acceder directamente desde fuera de la clase
+> Los miembros privados solo son accesibles desde dentro de la propia clase y no se pueden acceder directamente desde fuera de la clase. Por defecto las varibles y metodos son privados.
 
 ```cpp
 class MiClase {

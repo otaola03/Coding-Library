@@ -78,7 +78,7 @@ Los **selectores de atributos** permiten elegir elementos HTML en función de su
 Los tipos de selectores de atributos son los siguientes:
 
 * \[**nombre\_atributo**], selecciona los elementos que tienen establecido el atributo llamado nombre\_atributo independientemente de su valor.&#x20;
-* \[**nombre\_atributo=valor**], selecciona los elementos que tienen establecido un atributo llamado nombre\_atributo con un **** valor igual a valor**.**
+* \[**nombre\_atributo=valor**], selecciona los elementos que tienen establecido un atributo llamado nombre\_atributo con un valor igual a valor**.**
 * \[**nombre\_atributo\~=valor**], selecciona los elementos que tienen establecido un atributo llamado nombre\_atributo y al menos uno de los valores del atributo es valor**.**
 * \[**nombre\_atributo|=valor**], selecciona los elementos que tienen establecido un atributo llamado nombre\_atributo, cuyo valor es una lista de valores, donde alguno comienza por valor**.**
 * \[**nombre\_atributo$=valor**] Selecciona aquellas etiquetas cuyo atributo acabe en ese valor.
@@ -146,7 +146,8 @@ p ~ img {}
 
 El selector de combinación de elementos hijo es un símbolo de «mayor que» (`>`), que selecciona solo cuando los selectores identifican elementos que son hijos directos. Los elementos descendientes que se encuentran más abajo en la jerarquía no se seleccionan. Por ejemplo, para seleccionar solo los elementos `<p>` que son hijos directos de elementos `<article>`:
 
-<pre class="language-css"><code class="lang-css"><strong>article > p {}</strong></code></pre>
+<pre class="language-css"><code class="lang-css"><strong>article > p {}
+</strong></code></pre>
 
 Esto nos libra de seleccionar los hijos de los hijos, a la hora de utilizar el siguiente código. Es decir no libra de leccioanr todos los `<p>` que haya dentro de `<article>.`
 

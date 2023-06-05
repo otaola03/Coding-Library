@@ -51,9 +51,9 @@ Las listas ordenadas tienen los siguientes atributos
 
 Las listas descriptivas corresponden a las listas en las que **se establecen definiciones**, como, por ejemplo, los glosarios. Si bien este contenido podría ubicarse como lista ordenada o desordenada, las listas descriptivas tienen su propio código y sus etiquetas establecidas son `<dl>, <dt>, <dd>`.
 
-* `<dl> </dl>:` **** es la etiqueta de apertura y cierre que indica que dentro viene una lista descriptiva.
+* `<dl> </dl>:` es la etiqueta de apertura y cierre que indica que dentro viene una lista descriptiva.
 * `<dt> </dt>`: señala el término a definir.
-* `<dd> </dd>`: **** establece el inicio y fin de la definición.
+* `<dd> </dd>`: establece el inicio y fin de la definición.
 
 > Este tipo de listas no hace falta englobarlas con \<ul>, ya que tinen su propia etiqueta para ello \<dl>
 

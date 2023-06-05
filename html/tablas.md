@@ -24,7 +24,11 @@ Las celdas de la tabla suelen ser elementos \<td>, aunque también pueden ser el
 
 El codigo de una tabla sencilla es el siguiente:
 
+<div align="right">
+
 <figure><img src="../.gitbook/assets/Screen Shot 2022-11-22 at 11.45.49 AM.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Leyenda
 

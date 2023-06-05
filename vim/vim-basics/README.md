@@ -30,10 +30,10 @@ Para salir del modo inserción y volver al modo comando pulsamos la tecla escape
 
 Todos estos comandos se aplican cuando vim esta en el modo consola.
 
-* _**:w**_** ** –> Permite guardar el fichero.
+* _**:w**_ –> Permite guardar el fichero.
 * _**:q**_ –> Salir de Vim. Si el fichero ha sido modificado pero no se ha guardado, nos advertirá y no podremos salir de Vim usando este comando.
 * _**:q!**_ –> Salir de Vim, descartando posibles cambios no guardados que se hayan realizado en el fichero.
-* _**:x** _ –> Hace el guardado del archivo y después sale de Vim.
+* _**:x**_ –> Hace el guardado del archivo y después sale de Vim.
   * **:wq** o pulsar dos veces la tecla z (**zz**) tambien realiza la misma accion.
 * **:a** --> para aplicar el comando a todas las pestañas
 

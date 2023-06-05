@@ -59,7 +59,8 @@
 
 ## 🌃 C++
 
-* [Clases](c++/clases.md)
+* [Clases](c++/clases/README.md)
+  * [Herencia](c++/clases/herencia.md)
 * [Punteros y referencias](c++/punteros-y-referencias.md)
 * [Manejo de ficheros](c++/manejo-de-ficheros.md)
 * [Punteros a funciones](c++/punteros-a-funciones.md)

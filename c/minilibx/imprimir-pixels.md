@@ -129,4 +129,4 @@ La función `mlx_pixel_put` básicamente dibuja el píxel en la ventana directam
 
 Además, tenga en cuenta que esta técnica es lenta. Tal vez no se note en tu máquina, pero es realmente lento, créeme.
 
-Por lo tanto, necesitamos una solución a estos dos problemas. Bueno, no te preocupes, el minilibx nos proporciona una solución. Es un poco más complicado que poner un simple píxel en la ventana, ¡pero vale la pena!. Para esto hay su utilizan las [**imagenes**](imagenes.md)****
+Por lo tanto, necesitamos una solución a estos dos problemas. Bueno, no te preocupes, el minilibx nos proporciona una solución. Es un poco más complicado que poner un simple píxel en la ventana, ¡pero vale la pena!. Para esto hay su utilizan las [**imagenes**](imagenes.md)
