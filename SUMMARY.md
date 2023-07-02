@@ -129,4 +129,8 @@
 
 * [IP Adress](redes/ip-adress.md)
 * [Subnet Mask](redes/subnet-mask.md)
-* [Page 1](redes/page-1.md)
+
+## 🕷 Web Scrapping
+
+* [Spiders](web-scrapping/spiders/README.md)
+  * [CrawlerSpider](web-scrapping/spiders/crawlerspider.md)
