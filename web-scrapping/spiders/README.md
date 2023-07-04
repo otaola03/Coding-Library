@@ -117,7 +117,7 @@ class MySpider(scrapy.Spider):
         yield response.follow(url=link)
 ```
 
-**Argumentos `follow()`**
+**Argumentos de `follow()`**
 
 Esta es la sintaxis del metodo `follow()`:
 
