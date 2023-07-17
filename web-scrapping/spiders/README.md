@@ -143,7 +143,7 @@ A continuación, se explica cada uno de los argumentos de la función:
 Una vez que has seguido un enlace utilizando `response.follow()` en Scrapy, puedes realizar el scraping de la página enlazada utilizando la función de devolución de llamada (callback) correspondiente. Aquí tienes un ejemplo de cómo hacerlo:
 
 ```python
-pythonCopy codeimport scrapy
+import scrapy
 
 class MySpider(scrapy.Spider):
     name = 'my_spider'
