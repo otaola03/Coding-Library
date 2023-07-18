@@ -240,7 +240,7 @@ DOWNLOADER_MIDDLEWARES = {
      }
 ```
 
-### Usar selenium desde scrapy
+#### Usar selenium desde scrapy
 
 Para implementar código de Selenium en un spider de Scrapy utilizando `scrapy-selenium`, puedes utilizar el objeto `self.browser` o  `response.meta['driver']` proporcionado por la extensión. Aquí tienes un ejemplo:
 
