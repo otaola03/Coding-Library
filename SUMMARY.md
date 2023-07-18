@@ -136,3 +136,4 @@
 * [Spiders](web-scrapping/spiders/README.md)
   * [CrawlerSpider](web-scrapping/spiders/crawlerspider.md)
 * [Splash](web-scrapping/splash.md)
+* [Selenium](web-scrapping/selenium.md)
