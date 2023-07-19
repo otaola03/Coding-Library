@@ -133,7 +133,9 @@
 
 ## 🕷 Web Scrapping
 
-* [Spiders](web-scrapping/spiders/README.md)
-  * [CrawlerSpider](web-scrapping/spiders/crawlerspider.md)
+* [Scrapy](web-scrapping/scrapy/README.md)
+  * [Spiders](web-scrapping/scrapy/spiders/README.md)
+    * [CrawlerSpider](web-scrapping/scrapy/spiders/crawlerspider.md)
+  * [Process data](web-scrapping/scrapy/process-data.md)
 * [Splash](web-scrapping/splash.md)
 * [Selenium](web-scrapping/selenium.md)
