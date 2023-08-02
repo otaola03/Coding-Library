@@ -6,6 +6,10 @@ Tanto las clases abstractas como las interfaces proporcionan una forma de establ
 
 Las clases virtuales puras son clases que contienen al menos una función miembro virtual pura. Una función virtual pura se declara en la clase base pero no se implementa en ella.
 
+{% hint style="info" %}
+**Función virtual**: Declárala con `virtual` en una clase base. Permite redefinirla en clases derivadas para lograr polimorfismo. Sin `virtual`, llamadas desde punteros o referencias de clase base usan la implementación de la clase base, incluso con objetos de clases derivadas.
+{% endhint %}
+
 La declaración de una función virtual pura se realiza agregando `= 0` al final de la declaración de la función en la clase base. Por ejemplo:
 
 ```cpp

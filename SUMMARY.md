@@ -68,6 +68,7 @@
 * [Manejo de ficheros](c++/manejo-de-ficheros.md)
 * [Punteros a funciones](c++/punteros-a-funciones.md)
 * [Excepciones](c++/excepciones.md)
+* [Casting](c++/casting.md)
 
 ## 🧠 Pyhton
 
@@ -134,8 +135,8 @@
 ## 🕷 Web Scrapping
 
 * [Scrapy](web-scrapping/scrapy/README.md)
-  * [Spiders](web-scrapping/scrapy/spiders/README.md)
-    * [CrawlerSpider](web-scrapping/scrapy/spiders/crawlerspider.md)
+  * [Spiders](web-scrapping/spiders/README.md)
+    * [CrawlerSpider](web-scrapping/spiders/crawlerspider.md)
   * [Process data](web-scrapping/scrapy/process-data.md)
   * [Save data](web-scrapping/scrapy/save-data/README.md)
     * [CSV y JSON](web-scrapping/scrapy/save-data/csv-y-json.md)
