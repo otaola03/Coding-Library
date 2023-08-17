@@ -69,6 +69,7 @@
 * [Punteros a funciones](c++/punteros-a-funciones.md)
 * [Excepciones](c++/excepciones.md)
 * [Casting](c++/casting.md)
+* [Templates](c++/templates.md)
 
 ## 🧠 Pyhton
 
