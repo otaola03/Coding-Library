@@ -132,6 +132,35 @@ En el caso de que en el erro tan solo queiras devovelr el valor paso al cosntrut
 MiExcepcion(const std::string& mensaje): mensaje(mensaje) {}
 ```
 
+Por otro lado en el caso de que quieras devolver una excepcion con disitnto tipos e datos como integers y strings hay que utilizar el tipo de dato `std::ostringstream` y despues trasformal a string:
+
+```cpp
+#include <exception>
+#include <sstream>
+
+class CustomException : public std::exception {
+private:
+    std::string error_message;
+
+public:
+    CustomException(int num) {
+        std::ostringstream oss;
+        oss << "Error: el número " << num;
+        error_message = oss.str();
+    }
+
+    const char* what() const throw() {
+        return error_message.c_str();
+    }
+};
+```
+
+En este ejemplo, creamos un objeto `std::ostringstream` llamado `oss`. Luego, utilizamos el operador `<<` para concatenar datos en el objeto `oss`. Finalmente, obtenemos la cadena resultante utilizando `oss.str()` y lo devolvemos utilizando `c_str()` para transformarlo a un `const char*`.
+
+{% hint style="info" %}
+**`std::ostringstream`** es una clase de la biblioteca estándar de C++ que se utiliza para construir y manipular cadenas de caracteres, de manera similar a cómo se trabaja con `std::cout` para mostrar datos en la salida estándar.
+{% endhint %}
+
 #### **Lanzamiento y captura de una excepción personalizada**
 
 Una vez que se ha creado una excepción personalizada, se puede lanzar utilizando la palabra clave `throw`. A continuación, se muestra un ejemplo de cómo lanzar y capturar una excepción personalizada:
