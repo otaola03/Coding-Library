@@ -74,6 +74,7 @@
   * [Iterators](c++/templated-containers/iterators.md)
   * [std::vector](c++/templated-containers/std-vector.md)
   * [std::list](c++/templated-containers/std-list.md)
+  * [std::map](c++/templated-containers/std-map.md)
 
 ## 🧠 Pyhton
 
