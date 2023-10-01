@@ -56,6 +56,9 @@
 * [Funciones](c/funciones/README.md)
   * [opendir](c/funciones/opendir.md)
   * [access](c/funciones/access.md)
+* [Network Programming](c/network-programming/README.md)
+  * [Structs](c/network-programming/structs.md)
+  * [Llamadas al sistema](c/network-programming/llamadas-al-sistema.md)
 
 ## 🌃 C++
 
