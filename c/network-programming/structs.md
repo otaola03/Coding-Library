@@ -37,7 +37,13 @@ struct addrinfo {
 * **`ai_canonname`**: Un nombre canónico asociado con la dirección.
 * **`ai_next`**: Un puntero al siguiente elemento en la lista enlazada de `addrinfo`. Esto es útil cuando `getaddrinfo()` devuelve múltiples resultados.
 
-Es posible que no necesites escribir en estas estructuras con frecuencia; en muchos casos, una llamada a `getaddrinfo()` para completar tu `struct addrinfo` será todo lo que necesites. Sin embargo, deberás examinar estas estructuras internamente para obtener los valores, por lo que las presento aquí.
+Es posible que no necesites escribir en estas estructuras con frecuencia; en muchos casos, una llamada a `getaddrinfo()` para completar tu `struct addrinfo` será todo lo que necesites. Sin embargo, antes de realizar la llamada a `getaddrinfo()` es recomendable vaciar completamente la estructura mediante `memset()`.
+
+```cpp
+struct addrinfo hints;
+memset(&hints, 0, sizeof hints);
+getaddrinfo(NULL, PORT, &hints, &servinfo)
+```
 
 <figure><img src="../../.gitbook/assets/Untitled (2).png" alt=""><figcaption></figcaption></figure>
 
