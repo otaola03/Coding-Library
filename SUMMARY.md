@@ -59,7 +59,8 @@
 * [Network Programming](c/network-programming/README.md)
   * [Structs](c/network-programming/structs.md)
   * [Llamadas al sistema](c/network-programming/llamadas-al-sistema.md)
-  * [Synchronous I/O Multiplexing](c/network-programming/synchronous-i-o-multiplexing.md)
+  * [Synchronous I/O Multiplexing](c/network-programming/synchronous-i-o-multiplexing/README.md)
+    * [kqueue](c/network-programming/synchronous-i-o-multiplexing/kqueue.md)
 
 ## 🌃 C++
 
