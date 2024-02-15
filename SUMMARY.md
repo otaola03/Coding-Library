@@ -134,6 +134,11 @@
 * [Position](css/position.md)
 * [Medidas absolutas y relativas](css/medidas-absolutas-y-relativas.md)
 
+## 🟡 JavaScript
+
+* [Promesas](javascript/promesas.md)
+* [Async/Await](javascript/async-await.md)
+
 ## 🖥 Sistemas
 
 * [Particiones](sistemas/particiones.md)
