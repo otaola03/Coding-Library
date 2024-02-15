@@ -15,7 +15,7 @@ Las palabras clave `async` y `await` fueron introducidas en ECMAScript 2017 (tam
 
 ```javascript
 // Función asincrónica con await
-async function obtenerDatos() {
+function obtenerDatos() {
   // Simulación de una operación asíncrona
   return new Promise(resolve => {
     setTimeout(() => resolve('Datos obtenidos'), 2000);
