@@ -4,6 +4,24 @@ En la programación, el control de flujo es esencial para tomar decisiones, repe
 
 {% embed url="https://coal-tuesday-a8b.notion.site/Programaci-n-estructurada-28abc066c7214f76952528413b714d47?pvs=25" %}
 
+<details>
+
+<summary>Programacion estructurada</summary>
+
+[if-else](programacion-estructurada.md#estructura-de-control-if-else)
+
+[while](programacion-estructurada.md#bucle-while)
+
+[do-while](programacion-estructurada.md#bucle-do-while)
+
+[for](programacion-estructurada.md#bucle-for)
+
+[for-each](programacion-estructurada.md#bucle-for-each)
+
+[switch](programacion-estructurada.md#estructura-switch)
+
+</details>
+
 ### **Estructura de Control `if` - `else`**
 
 La estructura **`if`** - **`else`** permite tomar decisiones basadas en una condición. Puedes ejecutar un bloque de código si la condición es verdadera (**`if`**) o un bloque alternativo si la condición es falsa (**`else`**).
@@ -26,8 +44,6 @@ Si no
 	<Instrucciones>
 Fin s
 ```
-
-### **Bucle `while`**
 
 ### **Bucle `while`**
 
@@ -68,8 +84,6 @@ Repetir
 	<instrucciones>
 Hasta que <condición >
 ```
-
-### **Bucle `for`**
 
 ### **Bucle `for`**
 

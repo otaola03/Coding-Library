@@ -2,6 +2,28 @@
 
 {% embed url="https://coal-tuesday-a8b.notion.site/Conceptos-basicos-6f00995932ea41839fe79a0cbc9229e7" %}
 
+
+
+<details>
+
+<summary>Conceptos Básicos</summary>
+
+[Variables](conceptos-basicos.md#variables)
+
+[Tipso de datos](conceptos-basicos.md#tipos-de-datos)
+
+[Tipos de operadores](conceptos-basicos.md#tipos-de-operadores)
+
+[Casteos](conceptos-basicos.md#casteos)
+
+[Arrays](conceptos-basicos.md#arrays)
+
+[Imprimir en consola](conceptos-basicos.md#imprimir-en-consola)
+
+[Recibir datos por consola](conceptos-basicos.md#recibir-datos-por-consola)
+
+</details>
+
 ### Variables
 
 Una variable es un contenedor para almacenar datos. Piensa en ellas como cajas etiquetadas donde puedes guardar y manipular información en tu programa. Cada variable tiene un nombre único y un tipo de dato que especifica qué tipo de información puede contener.
