@@ -2,7 +2,7 @@
 
 En la programación, el control de flujo es esencial para tomar decisiones, repetir tareas y estructurar la lógica de un programa. En Java, disponemos de varias estructuras de control y bucles que nos permiten controlar el flujo de ejecución de nuestros programas de manera efectiva. En este artículo, exploraremos los principales tipos de bucles y estructuras de control en Java y cómo utilizarlos en tus proyectos.
 
-{% embed url="https://coal-tuesday-a8b.notion.site/Programaci-n-estructurada-28abc066c7214f76952528413b714d47" %}
+{% embed url="https://coal-tuesday-a8b.notion.site/Programaci-n-estructurada-28abc066c7214f76952528413b714d47?pvs=25" %}
 
 ### **Estructura de Control `if` - `else`**
 
