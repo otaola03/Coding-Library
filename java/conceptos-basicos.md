@@ -1,6 +1,6 @@
 # Conceptos basicos
 
-
+{% embed url="https://coal-tuesday-a8b.notion.site/Conceptos-basicos-6f00995932ea41839fe79a0cbc9229e7" %}
 
 ### Variables
 
