@@ -108,6 +108,7 @@
 * [Programacion estructurada](java/programacion-estructurada.md)
 * [Clases predefinidas](java/clases-predefinidas.md)
 * [POO](java/poo/README.md)
+  * [Clases](java/poo/clases.md)
   * [Herencia](java/poo/herencia.md)
   * [Polimorfismo](java/poo/polimorfismo.md)
   * [Abstraccion](java/poo/abstraccion.md)

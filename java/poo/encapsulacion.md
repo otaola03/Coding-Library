@@ -72,18 +72,22 @@ En Java, los modificadores de acceso son palabras clave que determinan la visibi
 
 #### Public, Protected, Default y Private: Un Vistazo Rápido
 
-1. **Public (`public`):**
+1. **Public (public):**
    * Accesible desde cualquier clase y paquete.
    * No hay restricciones en la visibilidad.
-2. **Protected (`protected`):**
+   * Puede ser utilizado libremente en cualquier parte del programa.
+2. **Protected (protected):**
    * Accesible dentro del mismo paquete y por subclases (incluso si están en paquetes diferentes).
    * Proporciona un nivel intermedio de visibilidad.
+   * Permite la herencia y extensión de clases, restringiendo el acceso desde clases no relacionadas.
 3. **Default (Sin Modificador):**
    * Accesible solo dentro del mismo paquete.
    * No se utiliza una palabra clave específica; es el nivel predeterminado si no se especifica ningún modificador.
-4. **Private (`private`):**
+   * Conocido como "paquete-privado" o "package-private".
+4. **Private (private):**
    * Accesible solo dentro de la misma clase.
-   * Mayor nivel de encapsulación, limita el acceso a la implementación interna de la clase.
+   * Proporciona el mayor nivel de encapsulación.
+   * Oculta la implementación interna de la clase y restringe el acceso a otras clases.
 
 <figure><img src="../../.gitbook/assets/photo_2024-02-14_17-49-43 (1).jpg" alt=""><figcaption></figcaption></figure>
 
