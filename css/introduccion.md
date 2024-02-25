@@ -74,7 +74,7 @@ Sin embargo, es una excelente forma de inyectar o incluir variables CSS en una e
 
 Las personas que ya están familiarizadas con HTML notarán que la sintaxis de CSS es un poco distinta. En lugar de hacer un listado del contenido de la página, CSS utiliza las reglas asignadas a elementos HTML, un documento HTML completo o varios de ellos. Estas reglas son procesadas por el navegador web cuando carga el archivo HTML.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Estos son los componente principales de la sintaxis css:
 

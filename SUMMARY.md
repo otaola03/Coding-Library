@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👨💻 Coding Library](README.md)
+* [👨‍💻 Coding Library](README.md)
 
 ## 👾 Linux
 
@@ -22,14 +22,14 @@
 
 * [Page 3](git/page-3.md)
 
-## 🖊 Vim
+## 🖊️ Vim
 
 * [Vim Basics](vim/vim-basics/README.md)
   * [Gramatica de Vim](vim/vim-basics/gramatica-de-vim.md)
   * [Moviendote por un archivo](vim/vim-basics/moviendote-por-un-archivo.md)
 * [Todo y mas](vim/todo-y-mas.md)
 
-## 🏛 C
+## 🏛️ C
 
 * [Estructuras de datos](c/estructuras-de-datos/README.md)
   * [Listas Enlazadas](c/estructuras-de-datos/listas-enlazadas.md)
@@ -114,8 +114,9 @@
   * [Abstraccion](java/poo/abstraccion.md)
   * [Encapsulacion](java/poo/encapsulacion.md)
 * [ArrayList](java/arraylist.md)
+* [Excepciones](java/excepciones.md)
 
-## ⚒ HTML
+## ⚒️ HTML
 
 * [HTML Basics](html/html-basics.md)
 * [Elementos de bloque](html/elementos-de-bloque/README.md)
@@ -152,16 +153,16 @@
 * [Promesas](javascript/promesas.md)
 * [Async/Await](javascript/async-await.md)
 
-## 🖥 Sistemas
+## 🖥️ Sistemas
 
 * [Particiones](sistemas/particiones.md)
 
-## 🕸 Redes
+## 🕸️ Redes
 
 * [IP Adress](redes/ip-adress.md)
 * [Subnet Mask](redes/subnet-mask.md)
 
-## 🕷 Web Scrapping
+## 🕷️ Web Scrapping
 
 * [Scrapy](web-scrapping/scrapy/README.md)
   * [Spiders](web-scrapping/spiders/README.md)

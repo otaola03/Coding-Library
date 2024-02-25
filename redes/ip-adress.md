@@ -58,7 +58,7 @@ IPv4 es la cuarta versión del protocolo de Internet y se ha utilizado ampliamen
 
 Sin embargo, la cantidad limitada de direcciones IPv4 ha llevado a la creación de redes privadas y el uso de la traducción de direcciones de red (NAT) para permitir que varios dispositivos compartan una dirección IP pública.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### Título H3: IPv6
 

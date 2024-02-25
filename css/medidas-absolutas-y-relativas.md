@@ -53,7 +53,7 @@ El `%` se utiliza para dar medidas en funcion del contenedor. De esta manera se 
 
 Con `width: auto;` se cosnigue que el elemento coga el maximo de espacio posible, en funcion del espacio que tenga posible. Es decir con el ejemplo anterior pasaria lo siguiente:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 En resumen, siempre o casis siempre que queiras que un elemento ocupe el 100% del with utiliza siempre `margin: auto;`.
 
