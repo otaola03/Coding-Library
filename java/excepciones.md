@@ -93,7 +93,7 @@ try (BufferedReader reader = new BufferedReader(new FileReader("archivo.txt"))) 
 }
 ```
 
-#### **Creación de Excepciones Personalizadas**
+### **Creación de Excepciones Personalizadas**
 
 En algunas situaciones, es posible que desees crear tus propias excepciones personalizadas para manejar casos específicos en tu aplicación.
 
