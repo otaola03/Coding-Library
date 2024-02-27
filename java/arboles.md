@@ -2,7 +2,7 @@
 
 En informática, un **árbol** es una estructura de datos jerárquica compuesta por nodos interconectados, donde cada nodo tiene un nodo padre (excepto la raíz) y cero o más nodos hijos. Está diseñado para organizar datos eficientemente, facilitando la búsqueda y manipulación de información. Los árboles son fundamentales en la representación y estructuración de datos en algoritmos y aplicaciones informáticas.
 
-Conceptos básicos
+### Conceptos básicos
 
 Aquí, exploraremos los conceptos básicos de los árboles, sus elementos fundamentales y cómo se estructuran en la programación:
 
@@ -93,7 +93,7 @@ En esencia, un árbol de búsqueda binario es una estructura jerárquica que con
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-#### Búsqueda en Árboles de Búsqueda Binarios
+#### Operacion de búsqueda
 
 La operación de búsqueda en árboles de búsqueda binarios es una de las funcionalidades clave que hacen que esta estructura de datos sea tan eficiente. El proceso de búsqueda se inicia desde la raíz del árbol y avanza hacia abajo, comparando la clave de búsqueda con la clave del nodo actual.
 
@@ -114,7 +114,7 @@ Función BuscarEnArbolBinario(raiz, clave):
         Devolver BuscarEnArbolBinario(raiz.derecho, clave)
 ```
 
-#### Insercion
+#### Operación de insercion
 
 La operación de inserción en árboles de búsqueda binarios es esencial para construir y mantener la estructura del árbol de manera ordenada. Aquí tienes un pseudocódigo básico para la inserción en un árbol de búsqueda binario:
 
@@ -141,7 +141,7 @@ Función InsertarEnArbolBinario(raiz, nuevoNodo):
             InsertarEnArbolBinario(raiz.derecho, nuevoNodo)
 ```
 
-#### Eliminiacion
+#### Operación de eliminiacion
 
 La operación de eliminación en árboles de búsqueda binarios es un proceso más complejo que busca mantener la propiedad de orden del árbol mientras se elimina un nodo específico. Aquí tienes un pseudocódigo básico para la eliminación en un árbol de búsqueda binario:
 
