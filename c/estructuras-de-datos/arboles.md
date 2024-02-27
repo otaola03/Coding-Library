@@ -6,7 +6,7 @@ En informática, un **árbol** es una estructura de datos jerárquica compuesta 
 
 Aquí, exploraremos los conceptos básicos de los árboles, sus elementos fundamentales y cómo se estructuran en la programación:
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 * El predecesor de cualquier elemento se denomina **padre** del elemento
 * El  nodo que no tiene padre y predecesor de todos los elementos de denomina **raiz**
@@ -23,7 +23,7 @@ Aquí, exploraremos los conceptos básicos de los árboles, sus elementos fundam
 
 #### **Recorrido en Anchura (Breadth-First Traversal):**
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 El recorrido en anchura, también conocido como BFS, explora el árbol nivel por nivel. Comienza visitando la raíz y luego se mueve a sus nodos hijos antes de avanzar al siguiente nivel. Para implementarlo, utilizamos una cola para mantener un seguimiento del orden de visita. Este recorrido es eficaz para encontrar el camino más corto en un grafo no ponderado y garantiza que los nodos se visiten en el orden en que aparecen en cada nivel.
 
@@ -44,7 +44,7 @@ BFS(raiz):
 
 #### **Recorrido en Profundidad - Preorden (Preorder Traversal):**
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 En el recorrido en profundidad preorden, primero se visita el nodo actual, luego se realiza el mismo proceso en el subárbol izquierdo y, finalmente, en el subárbol derecho. Es útil para explorar la estructura del árbol antes de profundizar en niveles inferiores. Puede ser utilizado para crear una copia del árbol, imprimir una expresión aritmética en notación prefija o realizar cualquier acción que necesite procesar el nodo antes de sus hijos.
 
@@ -58,7 +58,7 @@ Preorden(raiz):
 
 #### **Recorrido en Profundidad - Postorden (Postorder Traversal):**
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 En el recorrido en profundidad postorden comineza por las hojas, primero se visitan los nodos de los subárboles izquierdo y derecho y, finalmente, el nodo raiz. Este enfoque es útil para liberar la memoria ocupada por el árbol, ya que **libera los nodos de abajo hacia arriba**. También se utiliza para realizar operaciones que deben ocurrir después de procesar los nodos hijos, como evaluar expresiones aritméticas.
 
@@ -72,7 +72,7 @@ Postorden(raiz):
 
 #### **Recorrido en Profundidad - Inoreden (Inorder Traversal):**
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 El recorrido inorden es un tipo de travesía en árboles que sigue el patrón de visitar primero el subárbol izquierdo, luego el nodo padre y, finalmente, el subárbol derecho. Es especialmente útil en árboles binarios de búsqueda, ya que este orden de recorrido produce una secuencia ordenada de los valores almacenados.
 
@@ -91,7 +91,7 @@ En esencia, un árbol de búsqueda binario es una estructura jerárquica que con
 * Los nodos izquierdos tiene un valor inferior que el nodo antedecesor
 * Los nodos derechos tiene un valor mayor que el nodo antedecesor
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 #### Operacion de búsqueda
 

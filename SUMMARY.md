@@ -35,6 +35,7 @@
   * [Listas Enlazadas](c/estructuras-de-datos/listas-enlazadas.md)
   * [Colas](c/estructuras-de-datos/colas.md)
   * [Pilas](c/estructuras-de-datos/pilas.md)
+  * [Arboles](c/estructuras-de-datos/arboles.md)
 * [Valgrind](c/valgrind.md)
 * [Operadores de bits](c/operadores-de-bits.md)
 * [Procesos e Hilos](c/procesos-e-hilos/README.md)
@@ -115,7 +116,6 @@
   * [Encapsulacion](java/poo/encapsulacion.md)
 * [ArrayList](java/arraylist.md)
 * [Excepciones](java/excepciones.md)
-* [Arboles](java/arboles.md)
 
 ## ⚒️ HTML
 
