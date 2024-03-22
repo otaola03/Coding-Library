@@ -154,6 +154,13 @@
 * [Promesas](javascript/promesas.md)
 * [Async/Await](javascript/async-await.md)
 
+## 📲 Svelte
+
+* [Componentes](svelte/componentes.md)
+* [Reactividad](svelte/reactividad.md)
+* [Directivas](svelte/directivas.md)
+* [Eventos](svelte/eventos.md)
+
 ## 🖥️ Sistemas
 
 * [Particiones](sistemas/particiones.md)
